@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>菜单小卡片</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .img {
+      position: relative;
+      float: left;
+      width: 137px;
+      height: 180px;
+    }
+    .menu {
+      display: flex;
+      align-items: center;
+    }
+
+    .lesson {
+      width: 137px;
+      height: 180px;
+    }
+
+    .icon {
+      position: absolute;
+      width: 27px;
+      height: 19px;
+      right: 0;
+      bottom: 0;
+
+    }
+
+    .decoration {
+      padding: 30px 0;
+      margin-left: 24px;
+      border-bottom: 1px solid hsla(0,0%,91.4%,.6);
+    }
+
+    .title {
+      padding-top: 6px;
+      padding-bottom: 30px;
+    }
+
+    .author {
+      font: 400 14px 'Microsoft YaHei';
+      margin-top: 5px;
+      color: #404040;
+    }
+
+    .stu_num {
+      margin-top: 5px;
+      font: 400 14px 'Microsoft YaHei';
+      color: #888;
+    }
+
+    .price {
+      color: #fa8919;
+    }
+
+    .sub_price {
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    .sub_price span {
+      margin-left: 10px;
+      font: 400 14px 'Microsoft YaHei';
+      color: #888;
+      text-decoration: line-through;
+    }
+
+    .invite_price {
+      margin-top: 5px;
+      font: 400 14px;
+    }
+
+    .invite_button {
+      float: right;
+      width: 94px;
+      height: 34px;
+      border: none;
+      border-radius: 17px;
+      font: 500 14px '';
+      color: #fff;
+      background-color: #fa8919;
+    }
+  </style>
+</head>
+<body>
+  <div class="menu">
+    <div class="img">
+      <img class="lesson" src="python2022img.webp" alt="零基础学python2022">
+      <img class="icon" src="icon.png" alt="视频课">
+    </div>
+
+    <div class="decoration">
+      <div class="title">
+        <h2>零基础学 Python（2022 版）</h2>
+      <div class="author">尹会生 太乙人工智能技术合伙人 & 项目总监</div>
+        <p class="stu_num">1830人已学习</p>
+      </div>
+      <div class="price">
+        <p class="sub_price">特惠：￥119 <span>订阅价：￥199</span></p>
+        <p class="invite_price">每成功邀请购买一份得￥20</p>
+        <button class="invite_button">去推广</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
