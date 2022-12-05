@@ -8,7 +8,19 @@
 </head>
 <body>
   <audio controls>
-
+    <!-- type属性值不添加标签名就不可以播放 -->
+    <source src="孤勇者.mp3" type="audio/mp3">
+    <source src="" type="audio/ogg">
+    您的浏览器不支持HTML5音频，可点击<a href="孤勇者.mp3">此链接</a>收听
   </audio>
+
+  <video controls width="720px" height="500px"
+    poster="assets/favorite-2.jpg"  
+  >
+    <source src="阿凡达2.mp4" type="video/mp4">
+    <source src="" type="video/webm">
+
+    <track kind="captions" src="text.vtt" srclang="en">
+  </video>
 </body>
 </html>
