@@ -13,7 +13,7 @@
   <header>
     <h1>Mozilla</h1>
     <!-- 插入 <img> 元素，链接至较小的 Firefox 标志。 -->
-    <img src="firefox_logo-only_RGB120.png" alt="firefox logo">
+    <img src="firefox-logo120.png" alt="firefox logo">
 
   </header>
 
@@ -36,16 +36,16 @@
     <div class="further-info">
       <!-- 插入包含 srcsets 和 sizes 属性的图像 -->
       <a href="https://www.mozilla.org/zh-CN/firefox/new/">
-        <img srcset="firefox_logo-only_RGB120.png 240w, firefox_logo-only_RGB400.png 800w"
-          sizes="(max-width: 480px) 120px, 400px" src="firefox_logo-only_RGB400.png" alt="firefox RGBlogo">
+        <img srcset="firefox-logo120.png 120w, firefox-logo400.png 400w" sizes="(max-width: 480px) 120px, 400px"
+          src="firefox-logo400.png" alt="firefox-logo">
 
       </a>
       <a href="https://www.mozilla.org/">
-        <img srcset="mozilla-dinosaur-head120.png 240w, mozilla-dinosaur-head400.png 800w"
-          sizes="(max-width: 480px) 120px, 400px" src="mozilla-dinosaur-head400.png" alt="mozilla-dinosaur">
+        <img srcset="mozilla-dinosaur120.png 120w, mozilla-dinosaur400.png 400w" sizes="(max-width: 480px) 120px, 400px"
+          src="mozilla-dinosaur400.png" alt="mozilla-dinosaur">
       </a>
       <a href="https://addons.mozilla.org/">
-        <img srcset="firefox-addons120 240w, firefox-addons400 800w" sizes="(max-width: 480px) 120px, 400px"
+        <img srcset="firefox-addons120.jpg 120w, firefox-addons400.jpg 400w" sizes="(max-width: 480px) 120px, 400px"
           src="firefox-addons400.jpg" alt="firefox-addon">
       </a>
       <a href="https://developer.mozilla.org/zh-CN/">
@@ -56,6 +56,10 @@
 
     <div class="red-panda">
       <!-- 插入照片元素 -->
+      <picture>
+        <source media="(max-width: 600px)" srcset="red-panda600.jpg">
+        <img src="red-panda-landscape.jpg" alt="red-panda">
+      </picture>
     </div>
 
   </main>
