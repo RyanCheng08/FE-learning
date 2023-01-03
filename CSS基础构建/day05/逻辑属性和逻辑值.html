@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box {
+      inline-size: 200px;
+      writing-mode: vertical-rl;
+    }
+
+    .logical {
+      margin-block-start: 60px;
+      padding-inline-end: 4em;
+      padding-block-start: 2px;
+      border-block-start: 5px solid pink;
+      border-inline-end: 10px dotted rebeccapurple;
+      border-block-end: 1em double orange;
+      border-inline-start: 10px solid black;
+    }
+
+    .physical {
+      margin-top: 20px;
+      padding-right: 2em;
+      padding-top: 2px;
+      border-top: 5px solid pink;
+      border-right: 10px dotted rebeccapurple;
+      border-bottom: 1em double orange;
+      border-left: 1px solid black;
+    }
+
+    h2 {
+      border-bottom: 5px solid black;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="box physical">
+      <h2>Physical Properties</h2>
+      <p>A paragraph. Demonstrating Logical Properties in CSS.</p>
+    </div>
+    <div class="box logical" style="display: inline;">
+      <h2>Logical Properties</h2>
+      <p>A paragraph. Demonstrating Logical Properties in CSS.</p>
+      
+    </div>
+    <div class="box logical" style="display: inline;">
+      <h2>Logical Properties</h2>
+      <p>A paragraph. Demonstrating Logical Properties in CSS.</p>
+      
+    </div>
+
+</body>
+
+</html>

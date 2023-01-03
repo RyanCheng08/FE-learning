@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    body {
+      color: green;
+    }
+
+    .my-class-1 a {
+      all: inherit;
+    }
+
+    .my-class-2 a {
+      all: initial;
+    }
+
+    .my-class-3 a {
+      all: unset;
+    }
+
+    .in {
+      all: inherit;
+    }
+  </style>
+</head>
+
+<body>
+  <a class="in" href="#">这是一个超链接</a>
+
+
+  <ul>
+    <li>Default <a href="#">link</a> color</li>
+    <li class="my-class-1">Inherit the <a href="#">link</a> color</li>
+    <li class="my-class-2">Reset the <a href="#">link</a> color</li>
+    <li class="my-class-3">Unset the <a href="#">link</a> color</li>
+  </ul>
+
+</body>
+
+</html>
