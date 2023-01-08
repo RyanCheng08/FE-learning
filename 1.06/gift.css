@@ -4,6 +4,7 @@
 
 html {
   font-family: sans-serif;
+  
 }
 
 body {
@@ -17,12 +18,20 @@ article {
   margin: 20px auto;
   position: relative;
   background-color: white;
+  background:url(top-image.png),url(bottom-image.png), linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(255,255,255,1) 16%, rgba(255,255,255,1) 80%, rgba(0,0,0,0) 100%);
+  background-repeat: no-repeat;
+  background-position: top center,bottom center;
+  border-top: 3.8px solid red;
+  border-bottom: 3.8px solid red;
+  
 }
 
 address {
   position: absolute;
   bottom: 8mm;
   right: 20mm;
+  
+  
 }
 
 h1 {
@@ -37,9 +46,7 @@ h1 {
   padding: 44px 0;
   color: white;
   text-shadow: 1px 1px 1px black;
+  background-image: url(logo.png);
 }
 
 /* Your CSS below here */
-h1 {
-  background-image: url(top-image.png);
-}
