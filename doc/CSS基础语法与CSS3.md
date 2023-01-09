@@ -128,7 +128,7 @@
 
 - 小型案例：使用内嵌式CSS
 - 实际工作、大型网站项目：使用外链式CSS
-### 基本书写规则<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667204669018-a179bdbe-4da7-43b4-81fa-57c416cd9aac.png#averageHue=%23282a21&clientId=u54c8bda8-3222-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=269&id=u83cf1fe1&margin=%5Bobject%20Object%5D&name=image.png&originHeight=269&originWidth=1106&originalType=binary&ratio=1&rotation=0&showTitle=false&size=142286&status=done&style=none&taskId=u9944f215-cedb-4937-840a-343b45b96f6&title=&width=1106)
+### 基本书写规则![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667204669018-a179bdbe-4da7-43b4-81fa-57c416cd9aac.png#averageHue=%23282a21&clientId=u54c8bda8-3222-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=269&id=u83cf1fe1&margin=%5Bobject%20Object%5D&name=image.png&originHeight=269&originWidth=1106&originalType=binary&ratio=1&rotation=0&showTitle=false&size=142286&status=done&style=none&taskId=u9944f215-cedb-4937-840a-343b45b96f6&title=&width=1106)
 
 1. 所有的 css 代码都必须书写在 <head> 标签内部的一对 <style> 标签内。
 2. css 在给某个标签设置样式前，必须使用选择器先选中标签。
@@ -155,8 +155,8 @@ p{
 ```
 ### CSS 样式格式
 
-- 展开格式：开发过程使用，代码可读性强，便于调错。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667204836313-ffa542ca-99fb-4f25-ace1-371786b6b175.png#averageHue=%23282e38&clientId=u54c8bda8-3222-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=206&id=uac5ab7b1&margin=%5Bobject%20Object%5D&name=image.png&originHeight=206&originWidth=413&originalType=binary&ratio=1&rotation=0&showTitle=false&size=63873&status=done&style=none&taskId=uc99c8414-d511-4cb4-8448-f2edad142c8&title=&width=413)
-- 紧凑格式：上传服务器时使用，减少不必要的空白字符，压缩文件大小，利于传输。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667204846105-dae74b31-5d74-4a12-986e-42f427083db6.png#averageHue=%23292e38&clientId=u54c8bda8-3222-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=85&id=u3a4c3b1a&margin=%5Bobject%20Object%5D&name=image.png&originHeight=85&originWidth=796&originalType=binary&ratio=1&rotation=0&showTitle=false&size=49589&status=done&style=none&taskId=ude892a9f-29c7-4ff1-ae1a-e545ba39d88&title=&width=796)
+- 展开格式：开发过程使用，代码可读性强，便于调错。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667204836313-ffa542ca-99fb-4f25-ace1-371786b6b175.png#averageHue=%23282e38&clientId=u54c8bda8-3222-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=206&id=uac5ab7b1&margin=%5Bobject%20Object%5D&name=image.png&originHeight=206&originWidth=413&originalType=binary&ratio=1&rotation=0&showTitle=false&size=63873&status=done&style=none&taskId=uc99c8414-d511-4cb4-8448-f2edad142c8&title=&width=413)
+- 紧凑格式：上传服务器时使用，减少不必要的空白字符，压缩文件大小，利于传输。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667204846105-dae74b31-5d74-4a12-986e-42f427083db6.png#averageHue=%23292e38&clientId=u54c8bda8-3222-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=85&id=u3a4c3b1a&margin=%5Bobject%20Object%5D&name=image.png&originHeight=85&originWidth=796&originalType=binary&ratio=1&rotation=0&showTitle=false&size=49589&status=done&style=none&taskId=ude892a9f-29c7-4ff1-ae1a-e545ba39d88&title=&width=796)
 ### 英文大小写
 
 - CSS 中的英文可以使用大写，也可以使用小写。
@@ -442,7 +442,7 @@ CSS2.1的选择器有7种选择器
 ```
 ##### 原子类
 
-- 在做网页项目前，可以将所有的常用字号、文字颜色、行高、外边距、内边距等都设置为单独的类，需要用到的时候就可以直接拿出来使用了。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1657186750862-94898710-f7d5-4faf-bb78-0a097376a9f4.png#averageHue=%23fefbf7&clientId=u5f7b9d3e-e89c-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=199&id=u30ce6835&margin=%5Bobject%20Object%5D&name=image.png&originHeight=199&originWidth=294&originalType=binary&ratio=1&rotation=0&showTitle=false&size=11688&status=done&style=none&taskId=ub5071ee4-03e5-4233-a677-6373cf228b5&title=&width=294)
+- 在做网页项目前，可以将所有的常用字号、文字颜色、行高、外边距、内边距等都设置为单独的类，需要用到的时候就可以直接拿出来使用了。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1657186750862-94898710-f7d5-4faf-bb78-0a097376a9f4.png#averageHue=%23fefbf7&clientId=u5f7b9d3e-e89c-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=199&id=u30ce6835&margin=%5Bobject%20Object%5D&name=image.png&originHeight=199&originWidth=294&originalType=binary&ratio=1&rotation=0&showTitle=false&size=11688&status=done&style=none&taskId=ub5071ee4-03e5-4233-a677-6373cf228b5&title=&width=294)
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -499,7 +499,7 @@ CSS2.1的选择器有7种选择器
 | img[alt^="CBD"] | 选择alt属性是以CBD开头的img标签 |
 | img[alt$="夜游"] | 选择alt属性以夜游结尾的img标签 |
 | img[alt*="吃"] | 选择alt属性中含有吃字的img标签 |
-| img[alt~="王宫"] | <br />1. 选择alt属性中有2边都用空格隔开的王宫字样<br />2. 王宫是属性值最后的字符串且王宫前面有空格<br /> |
+| img[alt~="王宫"] | 1. 选择alt属性中有2边都用空格隔开的王宫字样2. 王宫是属性值最后的字符串且王宫前面有空格 |
 | img[alt&#124;="广州特色"] | 选择alt属性以“广州特色-”开头的img标签，注意是有符号-的 |
 
 ![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1657161154303-f0224eef-0ec5-4285-bc13-c8f4203b4145.png#averageHue=%239e814b&clientId=u7098b3b9-ddbb-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=292&id=ud92384c7&margin=%5Bobject%20Object%5D&name=image.png&originHeight=292&originWidth=1249&originalType=binary&ratio=1&rotation=0&showTitle=false&size=362269&status=done&style=none&taskId=ua2bb8126-2530-4c29-a3c5-34920f866ad&title=&width=1249)
@@ -576,7 +576,7 @@ CSS2.1的选择器有7种选择器
 
 - 通过标签之间存在的嵌套关系去选择元素，基本组成部分就是基础选择器。
 - CSS选择器中，使用空格表示“后代”，会将前面那个选择器中的所有后面选择器选择的标签都应用样式，不仅仅是子标签。
-- 可以使用很多个空格隔开好几代来选择<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1657033409571-28003055-562d-484f-a973-0a676b46f1cf.png#averageHue=%23faf4f2&clientId=u6ed55435-479e-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=340&id=ua9ca3f45&margin=%5Bobject%20Object%5D&name=image.png&originHeight=374&originWidth=315&originalType=binary&ratio=1&rotation=0&showTitle=false&size=15684&status=done&style=none&taskId=uc9f39e26-2fcb-4690-b271-337ee2e35e1&title=&width=286.36363015687186)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667206902062-8169caf6-9c85-4c06-9b52-7de864503006.png#averageHue=%23fcfbfa&clientId=u54c8bda8-3222-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=502&id=ua1b89353&margin=%5Bobject%20Object%5D&name=image.png&originHeight=502&originWidth=607&originalType=binary&ratio=1&rotation=0&showTitle=false&size=31321&status=done&style=none&taskId=uaa79094f-fbdf-41f3-9429-2b482762511&title=&width=607)
+- 可以使用很多个空格隔开好几代来选择![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1657033409571-28003055-562d-484f-a973-0a676b46f1cf.png#averageHue=%23faf4f2&clientId=u6ed55435-479e-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=340&id=ua9ca3f45&margin=%5Bobject%20Object%5D&name=image.png&originHeight=374&originWidth=315&originalType=binary&ratio=1&rotation=0&showTitle=false&size=15684&status=done&style=none&taskId=uc9f39e26-2fcb-4690-b271-337ee2e35e1&title=&width=286.36363015687186)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667206902062-8169caf6-9c85-4c06-9b52-7de864503006.png#averageHue=%23fcfbfa&clientId=u54c8bda8-3222-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=502&id=ua1b89353&margin=%5Bobject%20Object%5D&name=image.png&originHeight=502&originWidth=607&originalType=binary&ratio=1&rotation=0&showTitle=false&size=31321&status=done&style=none&taskId=uaa79094f-fbdf-41f3-9429-2b482762511&title=&width=607)
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -697,7 +697,7 @@ CSS2.1的选择器有7种选择器
 #### 交并集选择器
 
 - 交集选择器表示是在某个标签里面的某个标签，比如div标签里的p标签或者某个类某个id里面的某个选择器。
-- 并集选择器是2个选择器应用同一个样式。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1657036678060-fb95443a-66ef-4fc0-b640-f94692db28ff.png#averageHue=%23f7f5f3&clientId=u722068b6-fe15-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=689&id=ue432a605&margin=%5Bobject%20Object%5D&name=image.png&originHeight=758&originWidth=362&originalType=binary&ratio=1&rotation=0&showTitle=false&size=28042&status=done&style=none&taskId=u0159e75d-d448-4fd5-8c06-10292493c0d&title=&width=329.0909019580559)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667206922642-ff17870e-9fe2-4fe8-b2da-5ce51877c712.png#averageHue=%23f7f5f3&clientId=u54c8bda8-3222-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=444&id=ue6d1b6e1&margin=%5Bobject%20Object%5D&name=image.png&originHeight=444&originWidth=452&originalType=binary&ratio=1&rotation=0&showTitle=false&size=31978&status=done&style=none&taskId=u6d3fba5e-c633-4c37-a2a3-60f3268eda6&title=&width=452)
+- 并集选择器是2个选择器应用同一个样式。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1657036678060-fb95443a-66ef-4fc0-b640-f94692db28ff.png#averageHue=%23f7f5f3&clientId=u722068b6-fe15-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=689&id=ue432a605&margin=%5Bobject%20Object%5D&name=image.png&originHeight=758&originWidth=362&originalType=binary&ratio=1&rotation=0&showTitle=false&size=28042&status=done&style=none&taskId=u0159e75d-d448-4fd5-8c06-10292493c0d&title=&width=329.0909019580559)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667206922642-ff17870e-9fe2-4fe8-b2da-5ce51877c712.png#averageHue=%23f7f5f3&clientId=u54c8bda8-3222-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=444&id=ue6d1b6e1&margin=%5Bobject%20Object%5D&name=image.png&originHeight=444&originWidth=452&originalType=binary&ratio=1&rotation=0&showTitle=false&size=31978&status=done&style=none&taskId=u6d3fba5e-c633-4c37-a2a3-60f3268eda6&title=&width=452)
 - ![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667207012494-77d2571d-e800-4cc6-9ea5-46d144083615.png#averageHue=%23eae6e1&clientId=u54c8bda8-3222-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=153&id=u1e49a842&margin=%5Bobject%20Object%5D&name=image.png&originHeight=153&originWidth=320&originalType=binary&ratio=1&rotation=0&showTitle=false&size=8189&status=done&style=none&taskId=u44e0b7a3-4f3c-4248-90ed-6f702966de1&title=&width=320)
 ```html
 <!DOCTYPE html>
@@ -1153,7 +1153,7 @@ CSS2.1的选择器有7种选择器
 | 相邻兄弟选择器 | img+p | 紧跟着img标签的p标签 |
 | 通用兄弟选择器 | h3~p | h3标签之后所有同层级的p标签 |
 
-#### 子选择器<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1657093630613-4ed9be88-a49d-42c6-a0ba-62a6166a8a8a.png#averageHue=%23fdfbfb&clientId=uab3bcd56-f6ff-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=265&id=udbd94ee0&margin=%5Bobject%20Object%5D&name=image.png&originHeight=265&originWidth=315&originalType=binary&ratio=1&rotation=0&showTitle=false&size=13131&status=done&style=none&taskId=u44f25d72-8374-4196-8794-910e327888f&title=&width=315)
+#### 子选择器![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1657093630613-4ed9be88-a49d-42c6-a0ba-62a6166a8a8a.png#averageHue=%23fdfbfb&clientId=uab3bcd56-f6ff-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=265&id=udbd94ee0&margin=%5Bobject%20Object%5D&name=image.png&originHeight=265&originWidth=315&originalType=binary&ratio=1&rotation=0&showTitle=false&size=13131&status=done&style=none&taskId=u44f25d72-8374-4196-8794-910e327888f&title=&width=315)
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -1190,7 +1190,7 @@ CSS2.1的选择器有7种选择器
 </body>
 </html>
 ```
-#### 相邻兄弟选择器<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1657093645279-25b69236-b249-4da0-befc-7fd2f2740140.png#averageHue=%23b59251&clientId=uab3bcd56-f6ff-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=250&id=u347f2209&margin=%5Bobject%20Object%5D&name=image.png&originHeight=250&originWidth=695&originalType=binary&ratio=1&rotation=0&showTitle=false&size=69038&status=done&style=none&taskId=u1e7f0fd0-3e67-4055-9fa7-b85f8fd0d73&title=&width=695)
+#### 相邻兄弟选择器![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1657093645279-25b69236-b249-4da0-befc-7fd2f2740140.png#averageHue=%23b59251&clientId=uab3bcd56-f6ff-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=250&id=u347f2209&margin=%5Bobject%20Object%5D&name=image.png&originHeight=250&originWidth=695&originalType=binary&ratio=1&rotation=0&showTitle=false&size=69038&status=done&style=none&taskId=u1e7f0fd0-3e67-4055-9fa7-b85f8fd0d73&title=&width=695)
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -1397,7 +1397,7 @@ CSS2.1的选择器有7种选择器
 
 - 如果一个标签没有设置过一些样式，它的某个祖先级曾经设置过，在浏览器中该标签也会加载这些样式，这些样式都是从祖先级继承而来，这种现象就是继承性。
 - 能够被继承的样式是所有的文字相关样式属性，其他的属性都不能被继承。
-- 继承性的应用：可以把页面上出现较多的文字样式设置到较高层次的标签中，比如body，就可以减少在多个标签里面都写同样的样式了。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667207245207-c564e2eb-8d5d-4014-afda-a18e9560aad6.png#averageHue=%23d5c7a5&clientId=u54c8bda8-3222-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=469&id=uf81965b1&margin=%5Bobject%20Object%5D&name=image.png&originHeight=469&originWidth=683&originalType=binary&ratio=1&rotation=0&showTitle=false&size=307108&status=done&style=none&taskId=u8ec479d5-ff5a-4666-a0ca-1c6bca89c6e&title=&width=683)
+- 继承性的应用：可以把页面上出现较多的文字样式设置到较高层次的标签中，比如body，就可以减少在多个标签里面都写同样的样式了。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667207245207-c564e2eb-8d5d-4014-afda-a18e9560aad6.png#averageHue=%23d5c7a5&clientId=u54c8bda8-3222-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=469&id=uf81965b1&margin=%5Bobject%20Object%5D&name=image.png&originHeight=469&originWidth=683&originalType=binary&ratio=1&rotation=0&showTitle=false&size=307108&status=done&style=none&taskId=u8ec479d5-ff5a-4666-a0ca-1c6bca89c6e&title=&width=683)
 
 ![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667207291182-f6523c9f-9325-42ae-979f-1bb96f0f9f7a.png#averageHue=%23bcb968&clientId=u54c8bda8-3222-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=460&id=u66dbad20&margin=%5Bobject%20Object%5D&name=image.png&originHeight=460&originWidth=452&originalType=binary&ratio=1&rotation=0&showTitle=false&size=12794&status=done&style=none&taskId=ubc7a1a91-0e5e-4eb3-81df-34d6e7f56c4&title=&width=452)
 ```html
@@ -1579,11 +1579,11 @@ CSS2.1的选择器有7种选择器
 #### font-size属性
 
 - font-size属性用来设置字号，单位通常为px，也有em、rem单位，font-size: 30px;
-- 网页文字正文字号通常是16px，浏览器最小支持12px字号，现在普遍使用14px+<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667205065923-c9813d85-3db1-43c8-93f6-0c56e2748b42.png#averageHue=%23f3f2f2&clientId=u54c8bda8-3222-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=506&id=ub7dcb608&margin=%5Bobject%20Object%5D&name=image.png&originHeight=506&originWidth=946&originalType=binary&ratio=1&rotation=0&showTitle=false&size=72714&status=done&style=none&taskId=ue912dde2-ae16-49ae-9a2c-531212da848&title=&width=946)<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667205093977-9ad0701b-1700-4744-a295-9295ff208a57.png#averageHue=%23434852&clientId=u54c8bda8-3222-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=260&id=u45884c15&margin=%5Bobject%20Object%5D&name=image.png&originHeight=260&originWidth=1121&originalType=binary&ratio=1&rotation=0&showTitle=false&size=69430&status=done&style=none&taskId=ua20be3c0-7a77-472c-9ae5-50d434ac1b8&title=&width=1121)
+- 网页文字正文字号通常是16px，浏览器最小支持12px字号，现在普遍使用14px+![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667205065923-c9813d85-3db1-43c8-93f6-0c56e2748b42.png#averageHue=%23f3f2f2&clientId=u54c8bda8-3222-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=506&id=ub7dcb608&margin=%5Bobject%20Object%5D&name=image.png&originHeight=506&originWidth=946&originalType=binary&ratio=1&rotation=0&showTitle=false&size=72714&status=done&style=none&taskId=ue912dde2-ae16-49ae-9a2c-531212da848&title=&width=946)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667205093977-9ad0701b-1700-4744-a295-9295ff208a57.png#averageHue=%23434852&clientId=u54c8bda8-3222-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=260&id=u45884c15&margin=%5Bobject%20Object%5D&name=image.png&originHeight=260&originWidth=1121&originalType=binary&ratio=1&rotation=0&showTitle=false&size=69430&status=done&style=none&taskId=ua20be3c0-7a77-472c-9ae5-50d434ac1b8&title=&width=1121)
 #### font-weight属性
 
 - font-weight属性设置字体的粗细程度，属性值可以是单词类型或者数字类型
-- 单词类型的属性值有下图几个，通常就用normal和 bold两个值。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667373580214-e95ff6e3-9774-459e-9084-12c71dac9647.png#averageHue=%23f6f5f5&clientId=u797b2182-d2c2-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=292&id=u37f8905a&margin=%5Bobject%20Object%5D&name=image.png&originHeight=292&originWidth=706&originalType=binary&ratio=1&rotation=0&showTitle=false&size=108232&status=done&style=none&taskId=u6615dea9-4167-4242-b60a-7c2366ce292&title=&width=706)
+- 单词类型的属性值有下图几个，通常就用normal和 bold两个值。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667373580214-e95ff6e3-9774-459e-9084-12c71dac9647.png#averageHue=%23f6f5f5&clientId=u797b2182-d2c2-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=292&id=u37f8905a&margin=%5Bobject%20Object%5D&name=image.png&originHeight=292&originWidth=706&originalType=binary&ratio=1&rotation=0&showTitle=false&size=108232&status=done&style=none&taskId=u6615dea9-4167-4242-b60a-7c2366ce292&title=&width=706)
 - 数字类型的属性值范围是100-900，数字越大，字体约粗。
 - normal表示正常粗细，等价于400，可以让一些本来就加粗的变成正常粗细，例如标题标签。
 - bold表示加粗，等价于700。
@@ -1631,7 +1631,7 @@ CSS2.1的选择器有7种选择器
 - font-style属性设置字体的倾斜
 - normal：正常字体，也可以取消倾斜，比如可以把天生倾斜的i、 em等标签设置为不倾斜。
 - italic：设置为倾斜字体（常用），主要针对英文等有倾斜体的字体
-- oblique：也可以设置倾斜字体，不常用<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667375524052-d2ec62cc-e8c5-4905-a751-7b08b024e4c1.png#averageHue=%23f6f4f1&clientId=u797b2182-d2c2-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=138&id=u844b7af2&margin=%5Bobject%20Object%5D&name=image.png&originHeight=138&originWidth=376&originalType=binary&ratio=1&rotation=0&showTitle=false&size=10883&status=done&style=none&taskId=u50c52450-c843-4132-a75c-051aa54d509&title=&width=376)
+- oblique：也可以设置倾斜字体，不常用![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667375524052-d2ec62cc-e8c5-4905-a751-7b08b024e4c1.png#averageHue=%23f6f4f1&clientId=u797b2182-d2c2-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=138&id=u844b7af2&margin=%5Bobject%20Object%5D&name=image.png&originHeight=138&originWidth=376&originalType=binary&ratio=1&rotation=0&showTitle=false&size=10883&status=done&style=none&taskId=u50c52450-c843-4132-a75c-051aa54d509&title=&width=376)
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -1819,7 +1819,12 @@ CSS2.1的选择器有7种选择器
 - text-decoration属性用于设置文本的修饰线外观的（下划线、删除线）
 - none：没有修饰线，可以用来取消超链接标签的下划线
 - underline：下划线
-- line-through：删除线<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667380746150-aaf532cf-e6aa-4eea-a30b-a1e802207630.png#averageHue=%23f6f6f5&clientId=u797b2182-d2c2-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=246&id=uf6a20877&margin=%5Bobject%20Object%5D&name=image.png&originHeight=246&originWidth=696&originalType=binary&ratio=1&rotation=0&showTitle=false&size=92079&status=done&style=none&taskId=u71b10bb4-14f1-451b-aef9-e6653eaff2f&title=&width=696)
+- line-through：删除线![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667380746150-aaf532cf-e6aa-4eea-a30b-a1e802207630.png#averageHue=%23f6f6f5&clientId=u797b2182-d2c2-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=246&id=uf6a20877&margin=%5Bobject%20Object%5D&name=image.png&originHeight=246&originWidth=696&originalType=binary&ratio=1&rotation=0&showTitle=false&size=92079&status=done&style=none&taskId=u71b10bb4-14f1-451b-aef9-e6653eaff2f&title=&width=696)
+- text-decoration 属性是一种简写属性，并且可以使用普通属性三个值中的任何一个。普通属性如下：text-decoration-line，text-decoration-color和text-decoration-style
+  - line用来设置文本修饰的位置
+  - color是文本修饰的颜色
+  - style是文本修饰的样式，可以是波浪线`wavy`实线`solid`虚线dashed
+
 
 ![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1657509553521-d0283f32-1ea7-47f7-9fe9-b776110c2d0a.png#averageHue=%23f8f5f4&clientId=ub33716a1-ad2a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=607&id=YQ0Id&margin=%5Bobject%20Object%5D&name=image.png&originHeight=607&originWidth=489&originalType=binary&ratio=1&rotation=0&showTitle=false&size=55647&status=done&style=none&taskId=ud4905974-e655-483a-aaf5-5d59327bc67&title=&width=489)	
 ```html
@@ -1928,14 +1933,14 @@ CSS2.1的选择器有7种选择器
 ```
 #### text-indent属性
 
-- text-indent属性定义首行文本内容之前的缩进量，单位是em（em表示字符宽度）。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667380852535-b907646a-5bbc-4d34-b21d-5e3d874e5b67.png#averageHue=%23f5f4f3&clientId=u797b2182-d2c2-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=237&id=u96ebdb0a&margin=%5Bobject%20Object%5D&name=image.png&originHeight=237&originWidth=837&originalType=binary&ratio=1&rotation=0&showTitle=false&size=129022&status=done&style=none&taskId=u89e99a1b-42a0-41e9-9845-4f40634b490&title=&width=837)
+- text-indent属性定义首行文本内容之前的缩进量，单位是em（em表示字符宽度）。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667380852535-b907646a-5bbc-4d34-b21d-5e3d874e5b67.png#averageHue=%23f5f4f3&clientId=u797b2182-d2c2-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=237&id=u96ebdb0a&margin=%5Bobject%20Object%5D&name=image.png&originHeight=237&originWidth=837&originalType=binary&ratio=1&rotation=0&showTitle=false&size=129022&status=done&style=none&taskId=u89e99a1b-42a0-41e9-9845-4f40634b490&title=&width=837)
 - 实际工作中，最常使用 em 为单位的属性值。
 - 属性值区分正负，正数表示向右缩进，负数表示向左缩进。
 #### line-height属性
 
 - line-height属性用于定义行高，进阶知识：[css行高line-height的一些深入理解及应用](https://www.zhangxinxu.com/wordpress/2009/11/css%E8%A1%8C%E9%AB%98line-height%E7%9A%84%E4%B8%80%E4%BA%9B%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E5%8F%8A%E5%BA%94%E7%94%A8/)
 - 属性的值可以是以px为单位的数值：line-height:30px;
-- 可以是无单位的数字，表示的是行高为字体大小的多少倍，这个是最推荐的方式，不会在继承时产生不确定的结果，line-height:1.5;
+- 可以是无单位的数字，表示的是行高为字体大小的多少倍，这个是最推荐的方式，不会在继承时产生不确定的结果，荐的行高大约是 1.5–2 (双倍间距。)——line-height:1.5;
 - 也可以是百分数，表示字号的倍数，line-height:150%;
 - 设置text-align: center，即可实现文本水平居中，要垂直居中则要行高等于盒子的高度![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1657533160795-d9cb0ae2-6fd0-4bd7-a3aa-ff355efec844.png#averageHue=%23f9f3de&clientId=u2397254b-cea1-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=592&id=u05708c6d&margin=%5Bobject%20Object%5D&name=image.png&originHeight=592&originWidth=1366&originalType=binary&ratio=1&rotation=0&showTitle=false&size=93516&status=done&style=none&taskId=u4ba7f84c-a30a-4d2c-8975-0ade5d5d659&title=&width=1366)
 ```html
@@ -2047,15 +2052,242 @@ CSS2.1的选择器有7种选择器
 
 - 作用：设置文本水平方向的对齐。
 - 在盒子标签中，不论文本是单行还是多行，都会对应方向对齐，text-align属性就是设置文本水平方向上的对齐方向
-- 属性值：三个方向的单词<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667380597450-1258c66e-54e2-4603-bb9d-d4f10e1dbe87.png#averageHue=%23f8f7f7&clientId=u797b2182-d2c2-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=229&id=u1ea3af51&margin=%5Bobject%20Object%5D&name=image.png&originHeight=229&originWidth=761&originalType=binary&ratio=1&rotation=0&showTitle=false&size=65172&status=done&style=none&taskId=u94213684-28c7-46e5-b347-d254dde89b4&title=&width=761)
+- 属性值：三个方向的单词![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667380597450-1258c66e-54e2-4603-bb9d-d4f10e1dbe87.png#averageHue=%23f8f7f7&clientId=u797b2182-d2c2-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=229&id=u1ea3af51&margin=%5Bobject%20Object%5D&name=image.png&originHeight=229&originWidth=761&originalType=binary&ratio=1&rotation=0&showTitle=false&size=65172&status=done&style=none&taskId=u94213684-28c7-46e5-b347-d254dde89b4&title=&width=761)
+
+#### text-transform设置字体大小写和全角的转换
+
++ text-transform属性用来指定如何将元素文本大小写。
++ 属性值：
+  + none：防止任何转换
+  + `uppercase`: 将所有文本转为大写。
+  + `lowercase`: 将所有文本转为小写。
+  + `capitalize`: 转换所有单词让其首字母大写。
+
+#### 文字阴影text-shadow
+
++ text-shadow 为文字添加阴影。
+
++ 可以为文字与 decoration 添加多个阴影，阴影值之间用逗号隔开。每个阴影值由元素在 X 和 Y 方向的偏移量、模糊半径和颜色值组成。
+
++ 语法：
+
+  ```css
+  /* offset-x 相对文字阴影水平方向的偏移量 | offset-y 垂直方向的偏移量 | blur-radius 模糊半径，模糊半径越大，阴影也就越大越淡| color 阴影 颜色 */
+  text-shadow: 1px 1px 2px black;
+  
+  /*垂直和水平方向的偏移量可以是负数，正数向右和向下，负数反之 */
+  
+  /*可以通过包含以逗号分隔的多个阴影值，将多个阴影应用于同一文本 */
+  text-shadow: -1px -1px 1px #aaa,
+               0px 4px 1px rgba(0,0,0,0.5),
+               4px 4px 5px rgba(0,0,0,0.7),
+               0px 0px 7px rgba(0,0,0,0.4);
+  ```
+  
+  ![image-20230109145340524](https://image-1303053174.cos.ap-guangzhou.myqcloud.com//typora-images/image-20230109145340524.png)
+
 ### 继承
 
 - 文本与字体属性可以继承父标签的属性。
 - 因为文字相关属性有继承性，所以通常会设置body标签的字号、颜色、行高等，这样就能当做整个网页的默认样式了。
+
+## 列表样式
+
+### list-style-type
+
++ 设置用于列表的项目符号的类型，例如无序列表的方形或圆形项目符号，或有序列表的数字，字母或罗马数字。
++ 必须display是list-item的元素，在父元素上（<ol>、<ul>），虽然display是block但因为继承，子列表项还是可以生效。
++ 因为世界上有很多语言，尤其那些使用者众多的语言，都会有一个对应的有序名称。所以list-style-type支持的关键字属性值非常的多。cjk是Chinese/japanese/korea的缩写，表示东亚语言体系
+
+#### 关键字属性值
+
++ 圆点-disc
+
++ 空心圆-circle
+
++ 实心方点-square
+
++ 十进制阿拉伯数字-decimal
+
++ 中文大写数字-cjk-decimal、cjk-ideographic、trad-chinese-informal
+
++ 天干-cjk-heavenly-stem
+
++ 地支-cjk-earthly-branch
+
+  ![image-20230109161336233](C:\Users\KAI\AppData\Roaming\Typora\typora-user-images\image-20230109161336233.png)
+
+  ```html
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=ul, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    </style>
+  </head>
+  <body>
+    <h3>空心圆</h3>
+    <ul style="list-style-type: circle;">
+      <li>我是一个无序列表</li>
+      <li>我是一个无序列表</li>
+      <li>我是一个无序列表</li>
+      <li>我是一个无序列表</li>
+      <li>我是一个无序列表</li>
+    </ul>
+  
+    <h3>圆点</h3>
+    <ol style="list-style-type: disc;">
+      <li>我是一个有序列表</li>
+      <li>我是一个有序列表</li>
+      <li>我是一个有序列表</li>
+      <li>我是一个有序列表</li>
+      <li>我是一个有序列表</li>
+    </ol>
+  
+    <h3>大写数字</h3>
+    <ul style="list-style-type: cjk-decimal;">
+      <li>我是一个无序列表</li>
+      <li>我是一个无序列表</li>
+      <li>我是一个无序列表</li>
+      <li>我是一个无序列表</li>
+      <li>我是一个无序列表</li>
+    </ul>
+  
+    <h3>大写数字</h3>
+    <ol style="list-style-type: cjk-ideographic;">
+      <li>我是一个有序列表</li>
+      <li>我是一个有序列表</li>
+      <li>我是一个有序列表</li>
+      <li>我是一个有序列表</li>
+      <li>我是一个有序列表</li>
+    </ol>
+  
+    <h3>天干</h3>
+    <ul style="list-style-type: cjk-heavenly-stem;">
+      <li>我是一个无序列表</li>
+      <li>我是一个无序列表</li>
+      <li>我是一个无序列表</li>
+      <li>我是一个无序列表</li>
+      <li>我是一个无序列表</li>
+    </ul>
+  
+    <h3>地支</h3>
+    <ol style="list-style-type: cjk-earthly-branch;">
+      <li>我是一个有序列表</li>
+      <li>我是一个有序列表</li>
+      <li>我是一个有序列表</li>
+      <li>我是一个有序列表</li>
+      <li>我是一个有序列表</li>
+    </ol>
+  </body>
+  </html>
+  ```
+
+  
+
+#### 字符串属性值
+
++ `list-style-type`还支持自定义的字符串属性值，例如使用😈或者小😆这个符号作为项目符号，就会有emoji项目符号的效果。
+
++ 还支持多个符号设置
+
+  ```css
+    <h3>字符串属性值</h3>
+    <ol style="list-style-type: '😆';">
+      <li>我是一个有序列表</li>
+      <li>我是一个有序列表</li>
+      <li>我是一个有序列表</li>
+      <li>我是一个有序列表</li>
+      <li>我是一个有序列表</li>
+    </ol>
+  
+    <h3>多个符号</h3>
+    <ul style="list-style-type: 😈😆;">
+      <li>我是一个无序列表</li>
+      <li>我是一个无序列表</li>
+      <li>我是一个无序列表</li>
+      <li>我是一个无序列表</li>
+      <li>我是一个无序列表</li>
+    </ul>
+  ```
+
+  ![image-20230109162302486](C:\Users\KAI\AppData\Roaming\Typora\typora-user-images\image-20230109162302486.png)![image-20230109162335559](C:\Users\KAI\AppData\Roaming\Typora\typora-user-images\image-20230109162335559.png)![image-20230109162546902](C:\Users\KAI\AppData\Roaming\Typora\typora-user-images\image-20230109162546902.png)
+
+#### 任意自定义符号
+
++ 因为世界上有序号的语言太多了，所以出现了自定义符号的规则，支持通过特定的语法自定义符号
+
++ 先是用@counter-style 生命自定义符号的内容，然后list-style-type的属性值为之前声明的名称。
+
+  ![自定义项目符号内容](https://image.zhangxinxu.com/image/blog/202211/2022-11-05_213242.png)
+
++ 具体介绍可以看张鑫旭大佬的文章[CSS @counter-style规则详细介绍](https://www.zhangxinxu.com/wordpress/2021/10/css-counter-style/)
+
+### list-style-position
+
++ 设置在每个项目开始之前，项目符号是出现在列表项内，还是出现在其外。
+
+### list-style-image
+
++ 允许您为项目符号使用自定义图片，而不是简单的方形或圆形。
+
+### list-style简写
+
++ 上述的三个属性都可以用一个单独的list-style属性声明
++ 顺序可以任意排列，可以设置一个，两个或者三个值（该属性的默认值为 disc, none, outside）
+
+### 管理列表计数
+
++ start属性允许你从 1 以外的数字开始计数，值为需要开始的数字
+
+  ```html
+  <ol start="4">
+    <li>Toast pitta, leave to cool, then slice down the edge.</li>
+    <li>Fry the halloumi in a shallow, non-stick pan, until browned on both sides.</li>
+    <li>Wash and chop the salad.</li>
+    <li>Fill pitta with salad, humous, and fried halloumi.</li>
+  </ol>
+  
+  ```
+
+  ![image-20230109163703953](https://image-1303053174.cos.ap-guangzhou.myqcloud.com//typora-images/image-20230109163703953.png)
+
++ reversed 属性将启动列表倒计数
+
+  ```html
+  <ol start="4" reversed>
+    <li>Toast pitta, leave to cool, then slice down the edge.</li>
+    <li>Fry the halloumi in a shallow, non-stick pan, until browned on both sides.</li>
+    <li>Wash and chop the salad.</li>
+    <li>Fill pitta with salad, humous, and fried halloumi.</li>
+  </ol>
+  
+  ```
+
+  ![image-20230109163731729](https://image-1303053174.cos.ap-guangzhou.myqcloud.com//typora-images/image-20230109163731729.png)
+
++ value 属性允许设置列表项指定数值
+
+  ```html
+  <ol>
+    <li value="2">Toast pitta, leave to cool, then slice down the edge.</li>
+    <li value="4">Fry the halloumi in a shallow, non-stick pan, until browned on both sides.</li>
+    <li value="6">Wash and chop the salad.</li>
+    <li value="8">Fill pitta with salad, humous, and fried halloumi.</li>
+  </ol>
+  
+  ```
+
+  ![image-20230109163806840](https://image-1303053174.cos.ap-guangzhou.myqcloud.com//typora-images/image-20230109163806840.png)
+
 ## 盒模型
+
 ### 什么是盒模型
 
-- 所有HTML标签都可以看成矩形盒子，由width宽度、height高度、padding内边距、border边框和margin外边距构成，称为“盒模型”<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667381268713-da0f6111-904f-4e27-9483-31fd8023e323.png#averageHue=%23cdc0ab&clientId=u797b2182-d2c2-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=538&id=u16b1d385&margin=%5Bobject%20Object%5D&name=image.png&originHeight=538&originWidth=880&originalType=binary&ratio=1&rotation=0&showTitle=false&size=337913&status=done&style=none&taskId=ucbeef59d-774b-4d2e-af67-8db87045466&title=&width=880)
+- 所有HTML标签都可以看成矩形盒子，由width宽度、height高度、padding内边距、border边框和margin外边距构成，称为“盒模型”![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667381268713-da0f6111-904f-4e27-9483-31fd8023e323.png#averageHue=%23cdc0ab&clientId=u797b2182-d2c2-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=538&id=u16b1d385&margin=%5Bobject%20Object%5D&name=image.png&originHeight=538&originWidth=880&originalType=binary&ratio=1&rotation=0&showTitle=false&size=337913&status=done&style=none&taskId=ucbeef59d-774b-4d2e-af67-8db87045466&title=&width=880)
 - 理解这些“盒子”的基本原理，是我们使用 CSS 实现准确布局、处理元素排列的关键。
 - width和height是标签内容的宽高，单位通常是px，移动端开发也会涉及百分数、rem等单位
 - padding是内边距，就是内容到盒子之间的距离，分上下左右。
@@ -2065,12 +2297,12 @@ CSS2.1的选择器有7种选择器
 - 盒子实际占位的位置：width+height+padding+border+margin
 #### 盒模型图
 
-- 可以在浏览器控制台中查看元素的盒模型图<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667464891380-44518e0c-6a4f-46de-8d8e-369d87440701.png#averageHue=%23f8f3e8&clientId=u441aed12-67cf-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=320&id=u3d1166b2&margin=%5Bobject%20Object%5D&name=image.png&originHeight=320&originWidth=547&originalType=binary&ratio=1&rotation=0&showTitle=false&size=17706&status=done&style=none&taskId=ud8fc66b0-1d71-4a89-a7ac-59b01352a89&title=&width=547)
+- 可以在浏览器控制台中查看元素的盒模型图![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667464891380-44518e0c-6a4f-46de-8d8e-369d87440701.png#averageHue=%23f8f3e8&clientId=u441aed12-67cf-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=320&id=u3d1166b2&margin=%5Bobject%20Object%5D&name=image.png&originHeight=320&originWidth=547&originalType=binary&ratio=1&rotation=0&showTitle=false&size=17706&status=done&style=none&taskId=ud8fc66b0-1d71-4a89-a7ac-59b01352a89&title=&width=547)
 ### 盒模型属性
 #### 宽度width
 
 - 作用：设置可以添加元素内容的区域的宽度。
-- 属性值：<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667464967159-cfdce8c5-2471-4302-9c46-85aefd82c86c.png#averageHue=%23f6f6f5&clientId=u441aed12-67cf-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=243&id=ua121fb51&margin=%5Bobject%20Object%5D&name=image.png&originHeight=243&originWidth=816&originalType=binary&ratio=1&rotation=0&showTitle=false&size=104027&status=done&style=none&taskId=u5a52e350-39c0-4d27-94f0-4f07455ca61&title=&width=816)
+- 属性值：![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667464967159-cfdce8c5-2471-4302-9c46-85aefd82c86c.png#averageHue=%23f6f6f5&clientId=u441aed12-67cf-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=243&id=ua121fb51&margin=%5Bobject%20Object%5D&name=image.png&originHeight=243&originWidth=816&originalType=binary&ratio=1&rotation=0&showTitle=false&size=104027&status=done&style=none&taskId=u5a52e350-39c0-4d27-94f0-4f07455ca61&title=&width=816)
 
 - 特殊应用：
    - width属性的值为auto的时候，浏览器会根据不同的元素的特点自动计算出实际宽度，例如div需要独占一行的，width的值就会撑满父元素的width，span不占一行的width属性就是元素内部内容的实际宽度。
@@ -2078,7 +2310,7 @@ CSS2.1的选择器有7种选择器
 #### 高度height
 
 - 作用：设置可以添加元素内容的区域的高度。
-- 属性值：<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667465163610-1133b6e4-8910-49a4-a716-241a42e256a6.png#averageHue=%23f6f6f6&clientId=u441aed12-67cf-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=209&id=u57b50112&margin=%5Bobject%20Object%5D&name=image.png&originHeight=209&originWidth=691&originalType=binary&ratio=1&rotation=0&showTitle=false&size=79765&status=done&style=none&taskId=u5e9cf6d4-c60b-47c8-b242-69ebc197d8d&title=&width=691)
+- 属性值：![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667465163610-1133b6e4-8910-49a4-a716-241a42e256a6.png#averageHue=%23f6f6f6&clientId=u441aed12-67cf-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=209&id=u57b50112&margin=%5Bobject%20Object%5D&name=image.png&originHeight=209&originWidth=691&originalType=binary&ratio=1&rotation=0&showTitle=false&size=79765&status=done&style=none&taskId=u5e9cf6d4-c60b-47c8-b242-69ebc197d8d&title=&width=691)
 - 特殊应用：
    - 属性值为auto时，高度为内容的实际高度，会自动撑开，自适应内容的高度
 ```html
@@ -2143,16 +2375,16 @@ CSS2.1的选择器有7种选择器
 - padding 是一个复合属性，可以根据内边距的方向不同划分为四个方向的单一属性。
 ##### 单一属性
 
-- 书写四个方向单一属性时，一般是按照顺时针规律书写：上、右、下、左。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667465330502-b177ed07-88a2-4c08-946c-f69c19b9498b.png#averageHue=%233d434c&clientId=u441aed12-67cf-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=278&id=u296b80d7&margin=%5Bobject%20Object%5D&name=image.png&originHeight=278&originWidth=901&originalType=binary&ratio=1&rotation=0&showTitle=false&size=119643&status=done&style=none&taskId=u89a0bbec-7907-43b5-b66d-2f5f5ba1656&title=&width=901)
+- 书写四个方向单一属性时，一般是按照顺时针规律书写：上、右、下、左。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667465330502-b177ed07-88a2-4c08-946c-f69c19b9498b.png#averageHue=%233d434c&clientId=u441aed12-67cf-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=278&id=u296b80d7&margin=%5Bobject%20Object%5D&name=image.png&originHeight=278&originWidth=901&originalType=binary&ratio=1&rotation=0&showTitle=false&size=119643&status=done&style=none&taskId=u89a0bbec-7907-43b5-b66d-2f5f5ba1656&title=&width=901)
 ##### 简写
 
 - 为了简化书写，一般习惯将四个方向的单一属性进行合写成 padding 属性。
 - padding 属性值：可以有 1-4 个值，值之间用空格进行分隔。
 - 根据 padding 的属性值的个数不同，区分了四种表示法：
-   - 四值法：设置四个属性值，分配方向上、右、下、左，从上面开始顺时针赋值。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667790378574-b5670d22-3fdf-4542-b986-954958b7baa1.png#averageHue=%23e9cd94&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=324&id=u6b59f800&margin=%5Bobject%20Object%5D&name=image.png&originHeight=324&originWidth=381&originalType=binary&ratio=1&rotation=0&showTitle=false&size=16511&status=done&style=none&taskId=u4f6b3679-3661-443e-b0c3-ff22615ef61&title=&width=381)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667790464243-344a5bcc-277e-43ff-9329-74be9c0ccc25.png#averageHue=%23fa2727&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=88&id=ub2d542b9&margin=%5Bobject%20Object%5D&name=image.png&originHeight=88&originWidth=267&originalType=binary&ratio=1&rotation=0&showTitle=false&size=1658&status=done&style=none&taskId=u02b092ad-9a61-4599-b5c1-eebf5604477&title=&width=267)
-   - 三值法：设置三个值分配给上、左右、下。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667800856598-62bf95ac-ac57-497b-b823-ce8c053fa65e.png#averageHue=%23f5ebda&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=337&id=u0204b2fd&margin=%5Bobject%20Object%5D&name=image.png&originHeight=337&originWidth=330&originalType=binary&ratio=1&rotation=0&showTitle=false&size=17428&status=done&style=none&taskId=u6c92e0f4-5506-47b2-b440-faa0d5a8159&title=&width=330)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667800870755-10e6223a-2594-4918-91d4-86fe0ef8c809.png#averageHue=%2300fd3d&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=88&id=u7df2ac78&margin=%5Bobject%20Object%5D&name=image.png&originHeight=88&originWidth=315&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2301&status=done&style=none&taskId=uf281ec3f-b4be-4be2-8de1-24362167d3d&title=&width=315)
-   - 二值法：设置两个值，分配给上下、左右。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667790492793-b23cd86d-bac5-499d-8d24-66891091ec7e.png#averageHue=%23ebcd94&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=327&id=u05e574d4&margin=%5Bobject%20Object%5D&name=image.png&originHeight=327&originWidth=342&originalType=binary&ratio=1&rotation=0&showTitle=false&size=15598&status=done&style=none&taskId=ua16dc78e-533b-4f37-bb48-9f991f845f4&title=&width=342)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667790501421-265c7260-0e6d-400d-ad13-62b6c0464288.png#averageHue=%230003fb&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=85&id=ud73f7b4a&margin=%5Bobject%20Object%5D&name=image.png&originHeight=85&originWidth=326&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2152&status=done&style=none&taskId=u635e03de-3fac-4965-83b7-b7420edb5ce&title=&width=326)
-   - 单值法：设置属性值只有一个，分配方向上右下左，四边的值相同。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667790523566-bb94bd85-c18a-429d-a105-26d408b19f8b.png#averageHue=%23ebcd94&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=336&id=ucbf55486&margin=%5Bobject%20Object%5D&name=image.png&originHeight=336&originWidth=339&originalType=binary&ratio=1&rotation=0&showTitle=false&size=15763&status=done&style=none&taskId=u6087e009-8f75-4341-96ab-9775dd8f7d4&title=&width=339)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667790531209-9f110ec1-e2a6-49d0-b6f4-4c9fb1144921.png#averageHue=%23fbb83b&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=121&id=u49876486&margin=%5Bobject%20Object%5D&name=image.png&originHeight=121&originWidth=305&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2459&status=done&style=none&taskId=u9b183719-ffb6-4f04-9bec-9cbfabe3fb4&title=&width=305)
+   - 四值法：设置四个属性值，分配方向上、右、下、左，从上面开始顺时针赋值。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667790378574-b5670d22-3fdf-4542-b986-954958b7baa1.png#averageHue=%23e9cd94&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=324&id=u6b59f800&margin=%5Bobject%20Object%5D&name=image.png&originHeight=324&originWidth=381&originalType=binary&ratio=1&rotation=0&showTitle=false&size=16511&status=done&style=none&taskId=u4f6b3679-3661-443e-b0c3-ff22615ef61&title=&width=381)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667790464243-344a5bcc-277e-43ff-9329-74be9c0ccc25.png#averageHue=%23fa2727&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=88&id=ub2d542b9&margin=%5Bobject%20Object%5D&name=image.png&originHeight=88&originWidth=267&originalType=binary&ratio=1&rotation=0&showTitle=false&size=1658&status=done&style=none&taskId=u02b092ad-9a61-4599-b5c1-eebf5604477&title=&width=267)
+   - 三值法：设置三个值分配给上、左右、下。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667800856598-62bf95ac-ac57-497b-b823-ce8c053fa65e.png#averageHue=%23f5ebda&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=337&id=u0204b2fd&margin=%5Bobject%20Object%5D&name=image.png&originHeight=337&originWidth=330&originalType=binary&ratio=1&rotation=0&showTitle=false&size=17428&status=done&style=none&taskId=u6c92e0f4-5506-47b2-b440-faa0d5a8159&title=&width=330)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667800870755-10e6223a-2594-4918-91d4-86fe0ef8c809.png#averageHue=%2300fd3d&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=88&id=u7df2ac78&margin=%5Bobject%20Object%5D&name=image.png&originHeight=88&originWidth=315&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2301&status=done&style=none&taskId=uf281ec3f-b4be-4be2-8de1-24362167d3d&title=&width=315)
+   - 二值法：设置两个值，分配给上下、左右。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667790492793-b23cd86d-bac5-499d-8d24-66891091ec7e.png#averageHue=%23ebcd94&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=327&id=u05e574d4&margin=%5Bobject%20Object%5D&name=image.png&originHeight=327&originWidth=342&originalType=binary&ratio=1&rotation=0&showTitle=false&size=15598&status=done&style=none&taskId=ua16dc78e-533b-4f37-bb48-9f991f845f4&title=&width=342)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667790501421-265c7260-0e6d-400d-ad13-62b6c0464288.png#averageHue=%230003fb&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=85&id=ud73f7b4a&margin=%5Bobject%20Object%5D&name=image.png&originHeight=85&originWidth=326&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2152&status=done&style=none&taskId=u635e03de-3fac-4965-83b7-b7420edb5ce&title=&width=326)
+   - 单值法：设置属性值只有一个，分配方向上右下左，四边的值相同。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667790523566-bb94bd85-c18a-429d-a105-26d408b19f8b.png#averageHue=%23ebcd94&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=336&id=ucbf55486&margin=%5Bobject%20Object%5D&name=image.png&originHeight=336&originWidth=339&originalType=binary&ratio=1&rotation=0&showTitle=false&size=15763&status=done&style=none&taskId=u6087e009-8f75-4341-96ab-9775dd8f7d4&title=&width=339)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667790531209-9f110ec1-e2a6-49d0-b6f4-4c9fb1144921.png#averageHue=%23fbb83b&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=121&id=u49876486&margin=%5Bobject%20Object%5D&name=image.png&originHeight=121&originWidth=305&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2459&status=done&style=none&taskId=u9b183719-ffb6-4f04-9bec-9cbfabe3fb4&title=&width=305)
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -2237,7 +2469,7 @@ CSS2.1的选择器有7种选择器
    - 属性值：常用px形式的数值，跟padding类似也有4个方向的设置，也有4种写法，是复合属性
 - 线型：border-style
    - 作用：设置边框的线条形状
-   - 属性值：形状的单词，总体也是类似 padding 的综合属性写法，可以分别设置4个方向的边框<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667466764870-4332eb20-9359-4e3d-a3ef-23a1011408db.png#averageHue=%23f5f4f4&clientId=u441aed12-67cf-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=484&id=u3867f9fd&margin=%5Bobject%20Object%5D&name=image.png&originHeight=484&originWidth=689&originalType=binary&ratio=1&rotation=0&showTitle=false&size=255696&status=done&style=none&taskId=ubeaf6900-ce3a-4d59-b685-3f828bdea9b&title=&width=689)
+   - 属性值：形状的单词，总体也是类似 padding 的综合属性写法，可以分别设置4个方向的边框![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667466764870-4332eb20-9359-4e3d-a3ef-23a1011408db.png#averageHue=%23f5f4f4&clientId=u441aed12-67cf-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=484&id=u3867f9fd&margin=%5Bobject%20Object%5D&name=image.png&originHeight=484&originWidth=689&originalType=binary&ratio=1&rotation=0&showTitle=false&size=255696&status=done&style=none&taskId=ubeaf6900-ce3a-4d59-b685-3f828bdea9b&title=&width=689)
 - 线的颜色：border-color
    - 作用：设置边框的颜色。
    - 属性值：颜色名或颜色值，整体类似 padding 综合属性写法。
@@ -2445,10 +2677,10 @@ CSS2.1的选择器有7种选择器
 - 特点：不能渲染背景
 - 属性值：常用px为单位的数值。
 - 外边距的设置方式与内边距 padding 一模一样的。	
-   - 四值法<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667803966095-9e1ed4a9-0461-47d3-9899-f1bf9b42e8ae.png#averageHue=%23fed398&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=451&id=b4f2E&margin=%5Bobject%20Object%5D&name=image.png&originHeight=451&originWidth=251&originalType=binary&ratio=1&rotation=0&showTitle=false&size=16795&status=done&style=none&taskId=u788e5197-799f-48dd-9e45-29520c90690&title=&width=251)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667803910030-d6b20e52-c58b-42f0-8421-ed3e4ca69ae3.png#averageHue=%23f9eddf&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=422&id=NHzGr&margin=%5Bobject%20Object%5D&name=image.png&originHeight=422&originWidth=273&originalType=binary&ratio=1&rotation=0&showTitle=false&size=18410&status=done&style=none&taskId=u21779c43-ae3e-4f86-9044-33714c769b7&title=&width=273)
-   - 三值法<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667804001328-8c77aa99-aada-4664-9ab6-7657ba3b809f.png#averageHue=%23fed091&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=424&id=vdnwg&margin=%5Bobject%20Object%5D&name=image.png&originHeight=424&originWidth=262&originalType=binary&ratio=1&rotation=0&showTitle=false&size=15544&status=done&style=none&taskId=u540075a3-527b-4c02-947d-9895c240809&title=&width=262)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667804021577-d4575f54-854b-4788-8515-3d089bc145ab.png#averageHue=%23f9ecde&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=438&id=ip89L&margin=%5Bobject%20Object%5D&name=image.png&originHeight=438&originWidth=260&originalType=binary&ratio=1&rotation=0&showTitle=false&size=20493&status=done&style=none&taskId=ua4e8c560-1042-486b-915d-0a168d3dda4&title=&width=260)
-   - 双值法<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667804122691-1dda072a-df36-423c-865e-3a22702128aa.png#averageHue=%23faeee1&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=413&id=u29482950&margin=%5Bobject%20Object%5D&name=image.png&originHeight=413&originWidth=307&originalType=binary&ratio=1&rotation=0&showTitle=false&size=20240&status=done&style=none&taskId=u47b2bbeb-8915-4a91-b36c-4c6c979ceab&title=&width=307)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667804140137-c286c747-155b-4631-b25b-863585e44b8d.png#averageHue=%23e0bc5e&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=117&id=u2b187c70&margin=%5Bobject%20Object%5D&name=image.png&originHeight=117&originWidth=235&originalType=binary&ratio=1&rotation=0&showTitle=false&size=3234&status=done&style=none&taskId=u520e6dc0-9155-48b8-9e98-2399a9b9ef4&title=&width=235)
-   - 单值法<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667804159069-a1b89ba1-47ab-4aff-8ec0-bf7d53cb8611.png#averageHue=%23faeddf&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=436&id=u4a472baa&margin=%5Bobject%20Object%5D&name=image.png&originHeight=436&originWidth=275&originalType=binary&ratio=1&rotation=0&showTitle=false&size=18858&status=done&style=none&taskId=u415f2927-ab34-486b-abbc-5563e098b86&title=&width=275)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667804181495-a2de2a13-63b0-4553-850f-555f6cd9aff1.png#averageHue=%230004fd&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=181&id=u67d67b1d&margin=%5Bobject%20Object%5D&name=image.png&originHeight=181&originWidth=179&originalType=binary&ratio=1&rotation=0&showTitle=false&size=1474&status=done&style=none&taskId=u518d3130-c305-4c4a-8b31-6afe32ab71d&title=&width=179)
+   - 四值法![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667803966095-9e1ed4a9-0461-47d3-9899-f1bf9b42e8ae.png#averageHue=%23fed398&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=451&id=b4f2E&margin=%5Bobject%20Object%5D&name=image.png&originHeight=451&originWidth=251&originalType=binary&ratio=1&rotation=0&showTitle=false&size=16795&status=done&style=none&taskId=u788e5197-799f-48dd-9e45-29520c90690&title=&width=251)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667803910030-d6b20e52-c58b-42f0-8421-ed3e4ca69ae3.png#averageHue=%23f9eddf&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=422&id=NHzGr&margin=%5Bobject%20Object%5D&name=image.png&originHeight=422&originWidth=273&originalType=binary&ratio=1&rotation=0&showTitle=false&size=18410&status=done&style=none&taskId=u21779c43-ae3e-4f86-9044-33714c769b7&title=&width=273)
+   - 三值法![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667804001328-8c77aa99-aada-4664-9ab6-7657ba3b809f.png#averageHue=%23fed091&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=424&id=vdnwg&margin=%5Bobject%20Object%5D&name=image.png&originHeight=424&originWidth=262&originalType=binary&ratio=1&rotation=0&showTitle=false&size=15544&status=done&style=none&taskId=u540075a3-527b-4c02-947d-9895c240809&title=&width=262)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667804021577-d4575f54-854b-4788-8515-3d089bc145ab.png#averageHue=%23f9ecde&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=438&id=ip89L&margin=%5Bobject%20Object%5D&name=image.png&originHeight=438&originWidth=260&originalType=binary&ratio=1&rotation=0&showTitle=false&size=20493&status=done&style=none&taskId=ua4e8c560-1042-486b-915d-0a168d3dda4&title=&width=260)
+   - 双值法![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667804122691-1dda072a-df36-423c-865e-3a22702128aa.png#averageHue=%23faeee1&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=413&id=u29482950&margin=%5Bobject%20Object%5D&name=image.png&originHeight=413&originWidth=307&originalType=binary&ratio=1&rotation=0&showTitle=false&size=20240&status=done&style=none&taskId=u47b2bbeb-8915-4a91-b36c-4c6c979ceab&title=&width=307)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667804140137-c286c747-155b-4631-b25b-863585e44b8d.png#averageHue=%23e0bc5e&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=117&id=u2b187c70&margin=%5Bobject%20Object%5D&name=image.png&originHeight=117&originWidth=235&originalType=binary&ratio=1&rotation=0&showTitle=false&size=3234&status=done&style=none&taskId=u520e6dc0-9155-48b8-9e98-2399a9b9ef4&title=&width=235)
+   - 单值法![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667804159069-a1b89ba1-47ab-4aff-8ec0-bf7d53cb8611.png#averageHue=%23faeddf&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=436&id=u4a472baa&margin=%5Bobject%20Object%5D&name=image.png&originHeight=436&originWidth=275&originalType=binary&ratio=1&rotation=0&showTitle=false&size=18858&status=done&style=none&taskId=u415f2927-ab34-486b-abbc-5563e098b86&title=&width=275)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667804181495-a2de2a13-63b0-4553-850f-555f6cd9aff1.png#averageHue=%230004fd&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=181&id=u67d67b1d&margin=%5Bobject%20Object%5D&name=image.png&originHeight=181&originWidth=179&originalType=binary&ratio=1&rotation=0&showTitle=false&size=1474&status=done&style=none&taskId=u518d3130-c305-4c4a-8b31-6afe32ab71d&title=&width=179)
 
 ```html
 <!DOCTYPE html>
@@ -2509,10 +2741,10 @@ CSS2.1的选择器有7种选择器
 
 - 大部分标签都会有默认样式，在对页面进行布局的时候会有影响，为了避免这些影响需要清楚默认样式。
 - 带有默认样式的标签：
-   - 盒模型属性中内外边距，大部分容器级标签都有默认边距，可以通过标签选择器并集的方式或者通配符清除。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667804515915-be52a4f4-abe6-4d45-b17e-9095a84c0308.png#averageHue=%23f9f8f6&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=289&id=u06d60172&margin=%5Bobject%20Object%5D&name=image.png&originHeight=289&originWidth=303&originalType=binary&ratio=1&rotation=0&showTitle=false&size=10737&status=done&style=none&taskId=u6beeddff-d188-4cc7-806b-6858ab64a12&title=&width=303)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667804538108-6d0eb748-a2a3-431d-bd2f-ec1c14a25c52.png#averageHue=%23f7f6f4&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=209&id=u8779160f&margin=%5Bobject%20Object%5D&name=image.png&originHeight=209&originWidth=282&originalType=binary&ratio=1&rotation=0&showTitle=false&size=10012&status=done&style=none&taskId=u0e96b528-baca-4e87-abd4-626a1757ca2&title=&width=282)
-   - ul和ol两种列表默认的列表前缀可以用list-style清除。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667804629068-90d03583-08ce-4423-bbb7-2386b916d785.png#averageHue=%23faf9f7&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=205&id=u56db6914&margin=%5Bobject%20Object%5D&name=image.png&originHeight=205&originWidth=251&originalType=binary&ratio=1&rotation=0&showTitle=false&size=6023&status=done&style=none&taskId=u08070a7a-df2d-4f5d-8e1c-95f942af585&title=&width=251)
-   - a标签的默认下划线和字体颜色可以用text-decoratio和color清除。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667804689284-e6c3d9d0-0b54-49ee-a532-98fcb1adea90.png#averageHue=%23fefefd&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=35&id=u7b78d0cf&margin=%5Bobject%20Object%5D&name=image.png&originHeight=35&originWidth=210&originalType=binary&ratio=1&rotation=0&showTitle=false&size=1536&status=done&style=none&taskId=u8031ea60-9e93-492b-bb9c-3b5433e7151&title=&width=210)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667804727322-fbb7beb2-eeca-4d9a-9127-37eb39d0071e.png#averageHue=%23eeeae6&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=25&id=u6ea89a60&margin=%5Bobject%20Object%5D&name=image.png&originHeight=25&originWidth=127&originalType=binary&ratio=1&rotation=0&showTitle=false&size=1167&status=done&style=none&taskId=u9c009da1-9f0b-4606-875f-39638c467fd&title=&width=127)
-   - 清除标题标签的默认加粗效果可以使用font-weight。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667804589939-83b246f8-8ad8-44eb-922c-f016ae49bce4.png#averageHue=%23f9f8f7&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=196&id=u6494439d&margin=%5Bobject%20Object%5D&name=image.png&originHeight=196&originWidth=233&originalType=binary&ratio=1&rotation=0&showTitle=false&size=6145&status=done&style=none&taskId=u60fcace9-5017-4c0b-8166-17e4400c21e&title=&width=233)
+   - 盒模型属性中内外边距，大部分容器级标签都有默认边距，可以通过标签选择器并集的方式或者通配符清除。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667804515915-be52a4f4-abe6-4d45-b17e-9095a84c0308.png#averageHue=%23f9f8f6&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=289&id=u06d60172&margin=%5Bobject%20Object%5D&name=image.png&originHeight=289&originWidth=303&originalType=binary&ratio=1&rotation=0&showTitle=false&size=10737&status=done&style=none&taskId=u6beeddff-d188-4cc7-806b-6858ab64a12&title=&width=303)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667804538108-6d0eb748-a2a3-431d-bd2f-ec1c14a25c52.png#averageHue=%23f7f6f4&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=209&id=u8779160f&margin=%5Bobject%20Object%5D&name=image.png&originHeight=209&originWidth=282&originalType=binary&ratio=1&rotation=0&showTitle=false&size=10012&status=done&style=none&taskId=u0e96b528-baca-4e87-abd4-626a1757ca2&title=&width=282)
+   - ul和ol两种列表默认的列表前缀可以用list-style清除。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667804629068-90d03583-08ce-4423-bbb7-2386b916d785.png#averageHue=%23faf9f7&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=205&id=u56db6914&margin=%5Bobject%20Object%5D&name=image.png&originHeight=205&originWidth=251&originalType=binary&ratio=1&rotation=0&showTitle=false&size=6023&status=done&style=none&taskId=u08070a7a-df2d-4f5d-8e1c-95f942af585&title=&width=251)
+   - a标签的默认下划线和字体颜色可以用text-decoratio和color清除。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667804689284-e6c3d9d0-0b54-49ee-a532-98fcb1adea90.png#averageHue=%23fefefd&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=35&id=u7b78d0cf&margin=%5Bobject%20Object%5D&name=image.png&originHeight=35&originWidth=210&originalType=binary&ratio=1&rotation=0&showTitle=false&size=1536&status=done&style=none&taskId=u8031ea60-9e93-492b-bb9c-3b5433e7151&title=&width=210)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667804727322-fbb7beb2-eeca-4d9a-9127-37eb39d0071e.png#averageHue=%23eeeae6&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=25&id=u6ea89a60&margin=%5Bobject%20Object%5D&name=image.png&originHeight=25&originWidth=127&originalType=binary&ratio=1&rotation=0&showTitle=false&size=1167&status=done&style=none&taskId=u9c009da1-9f0b-4606-875f-39638c467fd&title=&width=127)
+   - 清除标题标签的默认加粗效果可以使用font-weight。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667804589939-83b246f8-8ad8-44eb-922c-f016ae49bce4.png#averageHue=%23f9f8f7&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=196&id=u6494439d&margin=%5Bobject%20Object%5D&name=image.png&originHeight=196&originWidth=233&originalType=binary&ratio=1&rotation=0&showTitle=false&size=6145&status=done&style=none&taskId=u60fcace9-5017-4c0b-8166-17e4400c21e&title=&width=233)
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -2570,8 +2802,8 @@ CSS2.1的选择器有7种选择器
 - 如果设置了高度：盒子占有的高度位置就确定死了，后面的同级元素会紧挨着加载。
 - 如果不设置高度：会根据标签内部内容高度自动撑开
 - 以 <div> 标签为例，根据情况不同选择是否设置高度：
-   - 如果设计图中盒子高度占位是固定的，后面同级元素在高度下面加载。自身盒子内部内容过多时会溢出盒子区域。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667805203350-e7f2f1ec-f1a9-48fa-a81d-4b38585cdcf9.png#averageHue=%23ebcd83&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=163&id=uee49af4b&margin=%5Bobject%20Object%5D&name=image.png&originHeight=163&originWidth=327&originalType=binary&ratio=1&rotation=0&showTitle=false&size=9979&status=done&style=none&taskId=u427f6d7c-7070-4cd5-9132-b3b76d69a4d&title=&width=327)<br />可以通过一个溢出的属性 overflow，进行溢出部分内容的显示效果设置<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667615502685-8939a130-16a6-4d34-9bbe-0b7b5112d654.png#averageHue=%23f4f4f3&clientId=u1f2822ac-d613-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=280&id=ua9546572&margin=%5Bobject%20Object%5D&name=image.png&originHeight=308&originWidth=991&originalType=binary&ratio=1&rotation=0&showTitle=false&size=231631&status=done&style=none&taskId=u97d9c195-1ecf-452d-8035-eee7a3e20bc&title=&width=900.9090713824127)<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667805246300-3cee1836-aaa8-4335-aba7-bb78ab9bdff6.png#averageHue=%23f4daad&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=176&id=uc25e0102&margin=%5Bobject%20Object%5D&name=image.png&originHeight=176&originWidth=339&originalType=binary&ratio=1&rotation=0&showTitle=false&size=5890&status=done&style=none&taskId=ue96a7a51-0a4e-4a4d-983d-3132d9c7661&title=&width=339)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667805255417-63673d4e-78fd-44a6-9499-3d4ccd62fe80.png#averageHue=%23fbf5e1&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=200&id=u87190282&margin=%5Bobject%20Object%5D&name=image.png&originHeight=248&originWidth=423&originalType=binary&ratio=1&rotation=0&showTitle=false&size=19128&status=done&style=none&taskId=u8c0fa6fb-1f33-4feb-b0de-d4deec1821a&title=&width=341)
-   - 必须不设置高度：要求盒子高度必须自适应内部内容的高度，或者设置height的属性值是自动的，这样不会随着内容的变多导致内容溢出盒子。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667805374871-6062f187-216f-4447-9acf-45b6eeb30224.png#averageHue=%23f3f426&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=284&id=u8a7cc1b5&margin=%5Bobject%20Object%5D&name=image.png&originHeight=284&originWidth=318&originalType=binary&ratio=1&rotation=0&showTitle=false&size=14491&status=done&style=none&taskId=u02a71052-c9e6-4f05-8e6f-1778dec9f60&title=&width=318)
+   - 如果设计图中盒子高度占位是固定的，后面同级元素在高度下面加载。自身盒子内部内容过多时会溢出盒子区域。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667805203350-e7f2f1ec-f1a9-48fa-a81d-4b38585cdcf9.png#averageHue=%23ebcd83&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=163&id=uee49af4b&margin=%5Bobject%20Object%5D&name=image.png&originHeight=163&originWidth=327&originalType=binary&ratio=1&rotation=0&showTitle=false&size=9979&status=done&style=none&taskId=u427f6d7c-7070-4cd5-9132-b3b76d69a4d&title=&width=327)可以通过一个溢出的属性 overflow，进行溢出部分内容的显示效果设置![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667615502685-8939a130-16a6-4d34-9bbe-0b7b5112d654.png#averageHue=%23f4f4f3&clientId=u1f2822ac-d613-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=280&id=ua9546572&margin=%5Bobject%20Object%5D&name=image.png&originHeight=308&originWidth=991&originalType=binary&ratio=1&rotation=0&showTitle=false&size=231631&status=done&style=none&taskId=u97d9c195-1ecf-452d-8035-eee7a3e20bc&title=&width=900.9090713824127)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667805246300-3cee1836-aaa8-4335-aba7-bb78ab9bdff6.png#averageHue=%23f4daad&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=176&id=uc25e0102&margin=%5Bobject%20Object%5D&name=image.png&originHeight=176&originWidth=339&originalType=binary&ratio=1&rotation=0&showTitle=false&size=5890&status=done&style=none&taskId=ue96a7a51-0a4e-4a4d-983d-3132d9c7661&title=&width=339)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667805255417-63673d4e-78fd-44a6-9499-3d4ccd62fe80.png#averageHue=%23fbf5e1&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=200&id=u87190282&margin=%5Bobject%20Object%5D&name=image.png&originHeight=248&originWidth=423&originalType=binary&ratio=1&rotation=0&showTitle=false&size=19128&status=done&style=none&taskId=u8c0fa6fb-1f33-4feb-b0de-d4deec1821a&title=&width=341)
+   - 必须不设置高度：要求盒子高度必须自适应内部内容的高度，或者设置height的属性值是自动的，这样不会随着内容的变多导致内容溢出盒子。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667805374871-6062f187-216f-4447-9acf-45b6eeb30224.png#averageHue=%23f3f426&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=284&id=u8a7cc1b5&margin=%5Bobject%20Object%5D&name=image.png&originHeight=284&originWidth=318&originalType=binary&ratio=1&rotation=0&showTitle=false&size=14491&status=done&style=none&taskId=u02a71052-c9e6-4f05-8e6f-1778dec9f60&title=&width=318)
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -2620,24 +2852,24 @@ CSS2.1的选择器有7种选择器
 #### 居中
 ##### 文本水平居中
 
-- 水平居中使用text-align属性，不论单行还是多行都可以设置，属性值设为center。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667805691639-9d2cad31-d66c-4778-9532-381c7e5144f7.png#averageHue=%2300fefe&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=178&id=uc748038b&margin=%5Bobject%20Object%5D&name=image.png&originHeight=178&originWidth=407&originalType=binary&ratio=1&rotation=0&showTitle=false&size=1619&status=done&style=none&taskId=u6b8b2f91-9ffb-4c9d-aae2-d54ba48351c&title=&width=407)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667805888262-13240dd8-85cd-46a7-8067-7eab5761ab6c.png#averageHue=%23fefbf9&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=140&id=u148a1df6&margin=%5Bobject%20Object%5D&name=image.png&originHeight=140&originWidth=241&originalType=binary&ratio=1&rotation=0&showTitle=false&size=6001&status=done&style=none&taskId=uf135b560-9ccd-4c87-af06-599632402bc&title=&width=241)
+- 水平居中使用text-align属性，不论单行还是多行都可以设置，属性值设为center。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667805691639-9d2cad31-d66c-4778-9532-381c7e5144f7.png#averageHue=%2300fefe&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=178&id=uc748038b&margin=%5Bobject%20Object%5D&name=image.png&originHeight=178&originWidth=407&originalType=binary&ratio=1&rotation=0&showTitle=false&size=1619&status=done&style=none&taskId=u6b8b2f91-9ffb-4c9d-aae2-d54ba48351c&title=&width=407)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667805888262-13240dd8-85cd-46a7-8067-7eab5761ab6c.png#averageHue=%23fefbf9&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=140&id=u148a1df6&margin=%5Bobject%20Object%5D&name=image.png&originHeight=140&originWidth=241&originalType=binary&ratio=1&rotation=0&showTitle=false&size=6001&status=done&style=none&taskId=uf135b560-9ccd-4c87-af06-599632402bc&title=&width=241)
 ##### 文本垂直居中
 
-- 单行文本垂直居中：让文字行高 line-height 等于盒子高度 height。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667805836259-f2b4de01-549a-4f65-a892-db54e046bda7.png#averageHue=%2301fefe&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=170&id=u1bba7c12&margin=%5Bobject%20Object%5D&name=image.png&originHeight=170&originWidth=266&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2036&status=done&style=none&taskId=u2ca14083-3f2f-4cc8-8755-b329a278a45&title=&width=266)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667805869001-e934a6c0-0d72-4014-8594-ce8c1da7171e.png#averageHue=%23fefcfa&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=66&id=u61e80ab2&margin=%5Bobject%20Object%5D&name=image.png&originHeight=66&originWidth=253&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2601&status=done&style=none&taskId=u13fe3e53-b49a-4269-953b-7d957e33f16&title=&width=253)
-- 多行文本垂直居中：让元素高度自适应正好等于多行文字的高度，设置元素内边距上下值相同，这样上下的内边距会把文本挤到中间。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667807385012-4ea814c9-72ba-44a6-bc04-73f0bdcd0851.png#averageHue=%23008d29&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=143&id=u0cab4028&margin=%5Bobject%20Object%5D&name=image.png&originHeight=143&originWidth=283&originalType=binary&ratio=1&rotation=0&showTitle=false&size=4117&status=done&style=none&taskId=u9ec82816-93cf-4605-beaf-55061a1b6d9&title=&width=283)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667807399636-c61079bf-7698-4676-97e0-b932a2b5e313.png#averageHue=%23faf0e4&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=409&id=u7a7da60e&margin=%5Bobject%20Object%5D&name=image.png&originHeight=409&originWidth=262&originalType=binary&ratio=1&rotation=0&showTitle=false&size=17190&status=done&style=none&taskId=uc55c392f-ea3b-457e-9123-8886e076e80&title=&width=262)
+- 单行文本垂直居中：让文字行高 line-height 等于盒子高度 height。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667805836259-f2b4de01-549a-4f65-a892-db54e046bda7.png#averageHue=%2301fefe&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=170&id=u1bba7c12&margin=%5Bobject%20Object%5D&name=image.png&originHeight=170&originWidth=266&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2036&status=done&style=none&taskId=u2ca14083-3f2f-4cc8-8755-b329a278a45&title=&width=266)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667805869001-e934a6c0-0d72-4014-8594-ce8c1da7171e.png#averageHue=%23fefcfa&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=66&id=u61e80ab2&margin=%5Bobject%20Object%5D&name=image.png&originHeight=66&originWidth=253&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2601&status=done&style=none&taskId=u13fe3e53-b49a-4269-953b-7d957e33f16&title=&width=253)
+- 多行文本垂直居中：让元素高度自适应正好等于多行文字的高度，设置元素内边距上下值相同，这样上下的内边距会把文本挤到中间。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667807385012-4ea814c9-72ba-44a6-bc04-73f0bdcd0851.png#averageHue=%23008d29&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=143&id=u0cab4028&margin=%5Bobject%20Object%5D&name=image.png&originHeight=143&originWidth=283&originalType=binary&ratio=1&rotation=0&showTitle=false&size=4117&status=done&style=none&taskId=u9ec82816-93cf-4605-beaf-55061a1b6d9&title=&width=283)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667807399636-c61079bf-7698-4676-97e0-b932a2b5e313.png#averageHue=%23faf0e4&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=409&id=u7a7da60e&margin=%5Bobject%20Object%5D&name=image.png&originHeight=409&originWidth=262&originalType=binary&ratio=1&rotation=0&showTitle=false&size=17190&status=done&style=none&taskId=uc55c392f-ea3b-457e-9123-8886e076e80&title=&width=262)
 ##### 元素垂直居中
 一个元素内部嵌套的子元素，在父元素中垂直居中
 
-- 与多行文字类似，让父元素高度自适应，子元素高度自动撑开父级的高度，再给父元素设置相同的上下边距<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667808080935-3f1861b6-d9a9-483e-939c-7bbf74317481.png#averageHue=%23fea919&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=193&id=uc680d905&margin=%5Bobject%20Object%5D&name=image.png&originHeight=193&originWidth=364&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2190&status=done&style=none&taskId=u1ea5957d-1bcc-45d0-a3eb-5bfc8da1868&title=&width=364)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667808092729-26d63d26-96e9-4dcb-ad16-4dcb76844f1f.png#averageHue=%23fbf1e7&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=566&id=ub6f01402&margin=%5Bobject%20Object%5D&name=image.png&originHeight=566&originWidth=259&originalType=binary&ratio=1&rotation=0&showTitle=false&size=23772&status=done&style=none&taskId=ue87d1c76-afbe-42f3-a562-363a7f6d2c3&title=&width=259)
+- 与多行文字类似，让父元素高度自适应，子元素高度自动撑开父级的高度，再给父元素设置相同的上下边距![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667808080935-3f1861b6-d9a9-483e-939c-7bbf74317481.png#averageHue=%23fea919&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=193&id=uc680d905&margin=%5Bobject%20Object%5D&name=image.png&originHeight=193&originWidth=364&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2190&status=done&style=none&taskId=u1ea5957d-1bcc-45d0-a3eb-5bfc8da1868&title=&width=364)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667808092729-26d63d26-96e9-4dcb-ad16-4dcb76844f1f.png#averageHue=%23fbf1e7&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=566&id=ub6f01402&margin=%5Bobject%20Object%5D&name=image.png&originHeight=566&originWidth=259&originalType=binary&ratio=1&rotation=0&showTitle=false&size=23772&status=done&style=none&taskId=ue87d1c76-afbe-42f3-a562-363a7f6d2c3&title=&width=259)
 ##### 元素水平居中
 
 -  类似于div这种需要占据一行的盒子，如果子盒子的宽度低于父盒子的宽度，可以通过设置2个水平方向的外边距margin的值为auto实现水平居中。
 
-原因：正常情况下，div占据一行是因为右边的margin会自动占满剩余的位置，当我们把左右2边的margin都设为auto后，就会自动平均分配左右的margin值。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667808111306-3dd79c36-6ad8-4617-9bf0-5b6d0a136c41.png#averageHue=%2301e7d4&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=112&id=ueca40f84&margin=%5Bobject%20Object%5D&name=image.png&originHeight=159&originWidth=271&originalType=binary&ratio=1&rotation=0&showTitle=false&size=1024&status=done&style=none&taskId=u91251b7d-4007-4f27-86d8-1bb6654974c&title=&width=191)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667808142798-93670e07-882c-43ed-a3a9-7546c5e012c0.png#averageHue=%23faf0e5&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=493&id=uca6b7f78&margin=%5Bobject%20Object%5D&name=image.png&originHeight=485&originWidth=252&originalType=binary&ratio=1&rotation=0&showTitle=false&size=19083&status=done&style=none&taskId=uf8cb61b5-60ad-4db7-8a61-880052f4ed8&title=&width=256)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667808176374-48f57490-a86b-4cf7-b737-ae855a76abef.png#averageHue=%23fbf1e7&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=475&id=ue49728aa&margin=%5Bobject%20Object%5D&name=image.png&originHeight=546&originWidth=283&originalType=binary&ratio=1&rotation=0&showTitle=false&size=21800&status=done&style=none&taskId=u593ecae9-5538-4dbd-82ca-243dc6d6c52&title=&width=246)
+原因：正常情况下，div占据一行是因为右边的margin会自动占满剩余的位置，当我们把左右2边的margin都设为auto后，就会自动平均分配左右的margin值。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667808111306-3dd79c36-6ad8-4617-9bf0-5b6d0a136c41.png#averageHue=%2301e7d4&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=112&id=ueca40f84&margin=%5Bobject%20Object%5D&name=image.png&originHeight=159&originWidth=271&originalType=binary&ratio=1&rotation=0&showTitle=false&size=1024&status=done&style=none&taskId=u91251b7d-4007-4f27-86d8-1bb6654974c&title=&width=191)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667808142798-93670e07-882c-43ed-a3a9-7546c5e012c0.png#averageHue=%23faf0e5&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=493&id=uca6b7f78&margin=%5Bobject%20Object%5D&name=image.png&originHeight=485&originWidth=252&originalType=binary&ratio=1&rotation=0&showTitle=false&size=19083&status=done&style=none&taskId=uf8cb61b5-60ad-4db7-8a61-880052f4ed8&title=&width=256)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667808176374-48f57490-a86b-4cf7-b737-ae855a76abef.png#averageHue=%23fbf1e7&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=475&id=ue49728aa&margin=%5Bobject%20Object%5D&name=image.png&originHeight=546&originWidth=283&originalType=binary&ratio=1&rotation=0&showTitle=false&size=21800&status=done&style=none&taskId=u593ecae9-5538-4dbd-82ca-243dc6d6c52&title=&width=246)
 #### 父子盒模
 
-- 在父元素里放一个或多个子元素，而且多个子元素还要排一行显示的时候，必须保证父元素的宽度要足够（子元素的所有宽度加在一起不能大于父元素的宽度，即父元素的width>=所有子元素width+padding+border+margin），如果不满足则会溢出父元素，或者掉落到下一行。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667810210826-15b62ce8-5c27-409a-bc16-d0306a9f0b16.png#averageHue=%238ecf46&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=121&id=u8db9a010&margin=%5Bobject%20Object%5D&name=image.png&originHeight=121&originWidth=867&originalType=binary&ratio=1&rotation=0&showTitle=false&size=1978&status=done&style=none&taskId=uf55e3b87-a3a2-4a5b-8cdc-2ba50ad9c93&title=&width=867)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667810259004-0168c0d3-5900-4dfd-9657-aaeb489389e3.png#averageHue=%23fef9f7&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=102&id=u4e520a0b&margin=%5Bobject%20Object%5D&name=image.png&originHeight=102&originWidth=262&originalType=binary&ratio=1&rotation=0&showTitle=false&size=5547&status=done&style=none&taskId=u2891c128-d215-4edf-a4f9-630c52fc375&title=&width=262)<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667810235159-166b3d1e-cb40-442c-bbef-8c867a2ef06d.png#averageHue=%238ace40&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=180&id=uc6f429f7&margin=%5Bobject%20Object%5D&name=image.png&originHeight=180&originWidth=845&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2408&status=done&style=none&taskId=u6fa3fd1b-e81a-44ca-ae9a-ee8200775a8&title=&width=845)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667810244794-2f66f35f-4d0c-427a-ba21-c59d5e506efc.png#averageHue=%23fefaf8&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=131&id=udf9e6d02&margin=%5Bobject%20Object%5D&name=image.png&originHeight=131&originWidth=325&originalType=binary&ratio=1&rotation=0&showTitle=false&size=7665&status=done&style=none&taskId=u07f28405-2970-428c-8e7f-2b705ce6c95&title=&width=325)
-   - 一个元素的溢出情况<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667811205802-94907d88-d108-41c6-a911-dfaf68b111d3.png#averageHue=%23e5f33d&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=122&id=u977af93e&margin=%5Bobject%20Object%5D&name=image.png&originHeight=122&originWidth=327&originalType=binary&ratio=1&rotation=0&showTitle=false&size=1273&status=done&style=none&taskId=uf7c4f6f0-5bac-40af-84fa-18483910030&title=&width=327)
+- 在父元素里放一个或多个子元素，而且多个子元素还要排一行显示的时候，必须保证父元素的宽度要足够（子元素的所有宽度加在一起不能大于父元素的宽度，即父元素的width>=所有子元素width+padding+border+margin），如果不满足则会溢出父元素，或者掉落到下一行。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667810210826-15b62ce8-5c27-409a-bc16-d0306a9f0b16.png#averageHue=%238ecf46&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=121&id=u8db9a010&margin=%5Bobject%20Object%5D&name=image.png&originHeight=121&originWidth=867&originalType=binary&ratio=1&rotation=0&showTitle=false&size=1978&status=done&style=none&taskId=uf55e3b87-a3a2-4a5b-8cdc-2ba50ad9c93&title=&width=867)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667810259004-0168c0d3-5900-4dfd-9657-aaeb489389e3.png#averageHue=%23fef9f7&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=102&id=u4e520a0b&margin=%5Bobject%20Object%5D&name=image.png&originHeight=102&originWidth=262&originalType=binary&ratio=1&rotation=0&showTitle=false&size=5547&status=done&style=none&taskId=u2891c128-d215-4edf-a4f9-630c52fc375&title=&width=262)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667810235159-166b3d1e-cb40-442c-bbef-8c867a2ef06d.png#averageHue=%238ace40&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=180&id=uc6f429f7&margin=%5Bobject%20Object%5D&name=image.png&originHeight=180&originWidth=845&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2408&status=done&style=none&taskId=u6fa3fd1b-e81a-44ca-ae9a-ee8200775a8&title=&width=845)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667810244794-2f66f35f-4d0c-427a-ba21-c59d5e506efc.png#averageHue=%23fefaf8&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=131&id=udf9e6d02&margin=%5Bobject%20Object%5D&name=image.png&originHeight=131&originWidth=325&originalType=binary&ratio=1&rotation=0&showTitle=false&size=7665&status=done&style=none&taskId=u07f28405-2970-428c-8e7f-2b705ce6c95&title=&width=325)
+   - 一个元素的溢出情况![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667811205802-94907d88-d108-41c6-a911-dfaf68b111d3.png#averageHue=%23e5f33d&clientId=u006fdd94-e84a-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=122&id=u977af93e&margin=%5Bobject%20Object%5D&name=image.png&originHeight=122&originWidth=327&originalType=binary&ratio=1&rotation=0&showTitle=false&size=1273&status=done&style=none&taskId=uf7c4f6f0-5bac-40af-84fa-18483910030&title=&width=327)
 - 解决办法：
    - 针对多行的，计算或量取尺寸时一定要计算准确，一像素都不能偏差。
    - 父子盒模型中，只有一个子元素，且子元素是类似 <div>，p 标签必须占一行的，可以不设置子元素的宽度（子元素的宽度会自动撑满父元素），当我们去修改padding、bording和margin的时候，会自动修改width的长度，从而实现总的宽度等于父元素的宽度。
@@ -2704,12 +2936,12 @@ CSS2.1的选择器有7种选择器
 ```
 #### margin塌陷现象
 
-- 上面的元素有下边距，下面的元素有上边距，两个边距相遇，真正的盒子间距离是较大的那个值，小的那个会塌陷在大的里面。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667828812205-ca14e9b8-16d9-4a7d-a66a-cc17d53c0548.png#averageHue=%23e7d9ab&clientId=ucfe23c97-168d-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=336&id=u66d0aa9f&margin=%5Bobject%20Object%5D&name=image.png&originHeight=370&originWidth=259&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2865&status=done&style=none&taskId=u1165fa71-aaae-4b2b-af85-3206852ce20&title=&width=235.45454035120574)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667828827919-278e9859-ebdf-40b1-8d7d-2fb8fa407196.png#averageHue=%23fdf8e6&clientId=ucfe23c97-168d-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=346&id=uf7466376&margin=%5Bobject%20Object%5D&name=image.png&originHeight=381&originWidth=238&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2766&status=done&style=none&taskId=u9d93e291-2dd7-4256-b7cc-022aa672e11&title=&width=216.36363167408095)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667828875068-8ea90063-4239-4bad-8a8b-11109fce24ab.png#averageHue=%23fefaf6&clientId=ucfe23c97-168d-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=399&id=u6c064ff9&margin=%5Bobject%20Object%5D&name=image.png&originHeight=439&originWidth=1662&originalType=binary&ratio=1&rotation=0&showTitle=false&size=59331&status=done&style=none&taskId=u09985285-80a0-4d87-a3e5-f1f876b5969&title=&width=1510.909058161019)
+- 上面的元素有下边距，下面的元素有上边距，两个边距相遇，真正的盒子间距离是较大的那个值，小的那个会塌陷在大的里面。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667828812205-ca14e9b8-16d9-4a7d-a66a-cc17d53c0548.png#averageHue=%23e7d9ab&clientId=ucfe23c97-168d-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=336&id=u66d0aa9f&margin=%5Bobject%20Object%5D&name=image.png&originHeight=370&originWidth=259&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2865&status=done&style=none&taskId=u1165fa71-aaae-4b2b-af85-3206852ce20&title=&width=235.45454035120574)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667828827919-278e9859-ebdf-40b1-8d7d-2fb8fa407196.png#averageHue=%23fdf8e6&clientId=ucfe23c97-168d-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=346&id=uf7466376&margin=%5Bobject%20Object%5D&name=image.png&originHeight=381&originWidth=238&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2766&status=done&style=none&taskId=u9d93e291-2dd7-4256-b7cc-022aa672e11&title=&width=216.36363167408095)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1667828875068-8ea90063-4239-4bad-8a8b-11109fce24ab.png#averageHue=%23fefaf6&clientId=ucfe23c97-168d-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=399&id=u6c064ff9&margin=%5Bobject%20Object%5D&name=image.png&originHeight=439&originWidth=1662&originalType=binary&ratio=1&rotation=0&showTitle=false&size=59331&status=done&style=none&taskId=u09985285-80a0-4d87-a3e5-f1f876b5969&title=&width=1510.909058161019)
 - 父子元素塌陷，父元素和子元素都设置了同方向的margin-top 值，两个属性之间没有其他的内容进行隔离，导致两个属性相遇，发生margin 塌陷
 - 本身父元素与上一个元素的距离是0，子元素如果设置了垂直方向的上边距，会带着父级一起掉下来，间隔为子元素的margin。
 - 解决 margin 塌陷问题的方法：
    - 同级元素：如果两个元素垂直方向有间距，只需要设置给一个元素，不要进行拆分。
-   - 父子元素：让两个边距不要相遇，中间可以使用父元素 border 或 padding 将边距分隔开；<br />更加常用方法，父子盒模型之间的距离就不要用儿子的 margin 去踹出来，而是父级的 padding 挤出来
+   - 父子元素：让两个边距不要相遇，中间可以使用父元素 border 或 padding 将边距分隔开；更加常用方法，父子盒模型之间的距离就不要用儿子的 margin 去踹出来，而是父级的 padding 挤出来
 - 水平方向的 margin 没有塌陷现象。
 ## 标准文档流
 ### 标准文档流定义
@@ -2744,13 +2976,13 @@ CSS2.1的选择器有7种选择器
 - 行内块元素可以设置宽度和高度，如图片标签img。
 - 行内块元素可以与其他的行内或行内块并排一行显示。
 - 行内块元素如果不设置宽高，要么以原始尺寸加载要么被内容自动撑开。
-- 行内块依旧具有标准流的微观性质，例如空白折叠现象。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668532039792-e504852c-9d16-44a2-8211-9009ed6bec57.png#averageHue=%23c3c3b8&clientId=uc0a9d1e6-3324-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=238&id=u9631e07c&margin=%5Bobject%20Object%5D&name=image.png&originHeight=262&originWidth=659&originalType=binary&ratio=1&rotation=0&showTitle=false&size=87229&status=done&style=none&taskId=u2e8aa6f6-9bbd-41e2-9e37-53ceb68f582&title=&width=599.0908961059636)
+- 行内块依旧具有标准流的微观性质，例如空白折叠现象。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668532039792-e504852c-9d16-44a2-8211-9009ed6bec57.png#averageHue=%23c3c3b8&clientId=uc0a9d1e6-3324-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=238&id=u9631e07c&margin=%5Bobject%20Object%5D&name=image.png&originHeight=262&originWidth=659&originalType=binary&ratio=1&rotation=0&showTitle=false&size=87229&status=done&style=none&taskId=u2e8aa6f6-9bbd-41e2-9e37-53ceb68f582&title=&width=599.0908961059636)
 ### CSS显示模式样式
 
 - 显示模式的样式为display，可以通过更改display属性来更改标签的加载模式。
-- 属性值：元素根据属性值不同，可以加载对应元素等级的显示模式的特点。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668561597087-4f5c3317-4a2c-4b72-8f43-c81ffb7674c2.png#averageHue=%23efefee&clientId=u1868518c-38d2-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=429&id=ubcf3b4a3&margin=%5Bobject%20Object%5D&name=image.png&originHeight=429&originWidth=994&originalType=binary&ratio=1&rotation=0&showTitle=false&size=80719&status=done&style=none&taskId=u68165577-704f-4739-acf8-9bcb3753a03&title=&width=994)
-   - 改变前：<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668669404306-9810e707-1078-4531-887b-bea935465f5f.png#averageHue=%23fdd5d4&clientId=u8d0fea58-d09c-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=119&id=u42dc6a78&margin=%5Bobject%20Object%5D&name=image.png&originHeight=119&originWidth=678&originalType=binary&ratio=1&rotation=0&showTitle=false&size=4802&status=done&style=none&taskId=u72d49298-a22c-47a0-be93-67b1a5703d8&title=&width=678)
-   - 改变后：<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668669693635-401cf031-e180-467a-9bb3-660bf500d754.png#averageHue=%23a3c72c&clientId=u263e574c-0e8e-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=62&id=u245d4cc5&margin=%5Bobject%20Object%5D&name=image.png&originHeight=62&originWidth=673&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2232&status=done&style=none&taskId=uc3d4429f-f39b-430d-b1c7-31bd0c2eebb&title=&width=673)
+- 属性值：元素根据属性值不同，可以加载对应元素等级的显示模式的特点。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668561597087-4f5c3317-4a2c-4b72-8f43-c81ffb7674c2.png#averageHue=%23efefee&clientId=u1868518c-38d2-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=429&id=ubcf3b4a3&margin=%5Bobject%20Object%5D&name=image.png&originHeight=429&originWidth=994&originalType=binary&ratio=1&rotation=0&showTitle=false&size=80719&status=done&style=none&taskId=u68165577-704f-4739-acf8-9bcb3753a03&title=&width=994)
+   - 改变前：![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668669404306-9810e707-1078-4531-887b-bea935465f5f.png#averageHue=%23fdd5d4&clientId=u8d0fea58-d09c-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=119&id=u42dc6a78&margin=%5Bobject%20Object%5D&name=image.png&originHeight=119&originWidth=678&originalType=binary&ratio=1&rotation=0&showTitle=false&size=4802&status=done&style=none&taskId=u72d49298-a22c-47a0-be93-67b1a5703d8&title=&width=678)
+   - 改变后：![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668669693635-401cf031-e180-467a-9bb3-660bf500d754.png#averageHue=%23a3c72c&clientId=u263e574c-0e8e-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=62&id=u245d4cc5&margin=%5Bobject%20Object%5D&name=image.png&originHeight=62&originWidth=673&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2232&status=done&style=none&taskId=uc3d4429f-f39b-430d-b1c7-31bd0c2eebb&title=&width=673)
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -2813,8 +3045,8 @@ CSS2.1的选择器有7种选择器
 
 - 根据设置的浮动值不同，进行布局的时候加载位置的方向不同。
 - 以left为例，父子元素都设置了浮动属性，如果父元素宽度足够，所有子元素会按照HTML书写顺序，依次向左进行贴边，父元素左边←子元素1←子元素2← 子元素3←子元素4。
-   - 浮动前：<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668670504182-e135ffca-b86c-4160-a0b4-8cbd734d0815.png#averageHue=%23f5debf&clientId=u263e574c-0e8e-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=350&id=u3f793409&margin=%5Bobject%20Object%5D&name=image.png&originHeight=350&originWidth=827&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2619&status=done&style=none&taskId=u5bdd4ffb-2855-4255-9a8f-86402db7de9&title=&width=827)
-   - 浮动后：<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668670930214-6f567100-d817-4d6b-a79c-c1a93f374e92.png#averageHue=%23e7ccac&clientId=u263e574c-0e8e-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=153&id=u0cb267e9&margin=%5Bobject%20Object%5D&name=image.png&originHeight=153&originWidth=1042&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2050&status=done&style=none&taskId=u4e58adc6-1fea-40b6-8e16-c335fa59243&title=&width=1042)
+   - 浮动前：![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668670504182-e135ffca-b86c-4160-a0b4-8cbd734d0815.png#averageHue=%23f5debf&clientId=u263e574c-0e8e-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=350&id=u3f793409&margin=%5Bobject%20Object%5D&name=image.png&originHeight=350&originWidth=827&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2619&status=done&style=none&taskId=u5bdd4ffb-2855-4255-9a8f-86402db7de9&title=&width=827)
+   - 浮动后：![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668670930214-6f567100-d817-4d6b-a79c-c1a93f374e92.png#averageHue=%23e7ccac&clientId=u263e574c-0e8e-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=153&id=u0cb267e9&margin=%5Bobject%20Object%5D&name=image.png&originHeight=153&originWidth=1042&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2050&status=done&style=none&taskId=u4e58adc6-1fea-40b6-8e16-c335fa59243&title=&width=1042)
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -2878,7 +3110,7 @@ CSS2.1的选择器有7种选择器
 ```
 
    - 父元素宽度如果不够，例如不能放下一个子元素4，那么子元素4在贴边时，会跳过上一个子元素3，向更上一个子元素2进行贴边，如果子元素2后面位置不够，继续跳过子元素2向前面的子元素1进行贴边。
-      - 位置不够：<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668671317524-57b1a3c7-5eed-46ba-ba9e-7ff8b0bd1167.png#averageHue=%23f1c4a5&clientId=u263e574c-0e8e-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=364&id=u3db086ae&margin=%5Bobject%20Object%5D&name=image.png&originHeight=364&originWidth=596&originalType=binary&ratio=1&rotation=0&showTitle=false&size=3152&status=done&style=none&taskId=u8fc1ca92-ba05-4229-8ba0-c412c63c53f&title=&width=596)
+      - 位置不够：![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668671317524-57b1a3c7-5eed-46ba-ba9e-7ff8b0bd1167.png#averageHue=%23f1c4a5&clientId=u263e574c-0e8e-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=364&id=u3db086ae&margin=%5Bobject%20Object%5D&name=image.png&originHeight=364&originWidth=596&originalType=binary&ratio=1&rotation=0&showTitle=false&size=3152&status=done&style=none&taskId=u8fc1ca92-ba05-4229-8ba0-c412c63c53f&title=&width=596)
 ```css
  div {
       margin: 0;
@@ -2928,7 +3160,7 @@ CSS2.1的选择器有7种选择器
     }
 ```
 
-      - 位置够：<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668671688400-821c369b-4b51-4e12-9508-25772281c568.png#averageHue=%23fef188&clientId=u263e574c-0e8e-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=334&id=ue4c9af3e&margin=%5Bobject%20Object%5D&name=image.png&originHeight=334&originWidth=456&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2715&status=done&style=none&taskId=u002880c2-05f5-4cb8-9256-b0033ab69fe&title=&width=456)
+      - 位置够：![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668671688400-821c369b-4b51-4e12-9508-25772281c568.png#averageHue=%23fef188&clientId=u263e574c-0e8e-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=334&id=ue4c9af3e&margin=%5Bobject%20Object%5D&name=image.png&originHeight=334&originWidth=456&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2715&status=done&style=none&taskId=u002880c2-05f5-4cb8-9256-b0033ab69fe&title=&width=456)
 ```css
 /*第二个元素后面的宽度足够放下第四个元素的时候，第四个元素就会跟第二个元素贴边  */
 .box4 {
@@ -2952,7 +3184,7 @@ CSS2.1的选择器有7种选择器
 }
 ```
 
-   - 如果贴边的这个子元素4宽度小于子元素2，子元素2的高度低于子元素1和子元素3，形成一个凹陷，子元素4会受前面子元素3高度影响，不会出现钻空现象。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668672014930-cbbdd786-3267-4b6d-a9b7-4c6b6c836d85.png#averageHue=%23eeb798&clientId=u263e574c-0e8e-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=353&id=ue6e7ad44&margin=%5Bobject%20Object%5D&name=image.png&originHeight=353&originWidth=558&originalType=binary&ratio=1&rotation=0&showTitle=false&size=3100&status=done&style=none&taskId=u85415ec8-c71d-48a0-ab97-a415b134402&title=&width=558)
+   - 如果贴边的这个子元素4宽度小于子元素2，子元素2的高度低于子元素1和子元素3，形成一个凹陷，子元素4会受前面子元素3高度影响，不会出现钻空现象。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668672014930-cbbdd786-3267-4b6d-a9b7-4c6b6c836d85.png#averageHue=%23eeb798&clientId=u263e574c-0e8e-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=353&id=ue6e7ad44&margin=%5Bobject%20Object%5D&name=image.png&originHeight=353&originWidth=558&originalType=binary&ratio=1&rotation=0&showTitle=false&size=3100&status=done&style=none&taskId=u85415ec8-c71d-48a0-ab97-a415b134402&title=&width=558)
 ```css
 /*先把父元素的宽度调大，给元素2的宽度调整流出空间  */
 .fbox {
@@ -2993,7 +3225,7 @@ CSS2.1的选择器有7种选择器
     }
 ```
 
-   - 如果子元素1后面的距离也放不下子元素4，子元素4最终会贴到父元素左边，如果子元素4的宽度超过了父元素，只会出现溢出现象。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668672379035-b0c33e04-3be8-4808-bfd1-bb571922a9af.png#averageHue=%23feefa1&clientId=ufa26ec83-85b7-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=439&id=u07d3cade&margin=%5Bobject%20Object%5D&name=image.png&originHeight=439&originWidth=545&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2630&status=done&style=none&taskId=u1b388a77-76b4-4f35-90d0-01765789a9e&title=&width=545)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668672453644-8d38d648-06af-4ad4-b2d4-c0f42dbf5ebf.png#averageHue=%23feef9f&clientId=ufa26ec83-85b7-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=440&id=u92a57494&margin=%5Bobject%20Object%5D&name=image.png&originHeight=440&originWidth=618&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2810&status=done&style=none&taskId=uabd68a2d-7340-497f-be78-fa044763ad6&title=&width=618)
+   - 如果子元素1后面的距离也放不下子元素4，子元素4最终会贴到父元素左边，如果子元素4的宽度超过了父元素，只会出现溢出现象。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668672379035-b0c33e04-3be8-4808-bfd1-bb571922a9af.png#averageHue=%23feefa1&clientId=ufa26ec83-85b7-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=439&id=u07d3cade&margin=%5Bobject%20Object%5D&name=image.png&originHeight=439&originWidth=545&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2630&status=done&style=none&taskId=u1b388a77-76b4-4f35-90d0-01765789a9e&title=&width=545)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668672453644-8d38d648-06af-4ad4-b2d4-c0f42dbf5ebf.png#averageHue=%23feef9f&clientId=ufa26ec83-85b7-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=440&id=u92a57494&margin=%5Bobject%20Object%5D&name=image.png&originHeight=440&originWidth=618&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2810&status=done&style=none&taskId=uabd68a2d-7340-497f-be78-fa044763ad6&title=&width=618)
 ```css
 .box1 {
   float: left;
@@ -3028,7 +3260,7 @@ CSS2.1的选择器有7种选择器
 }
 ```
 
-- 右浮动与左浮动贴边效果是一致的，只是贴边方向不同。按照 HTML 书写顺序依次向右向上一个元素贴边，第一个元素贴父元素的右边。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668672634874-32f822e7-8e62-449a-902b-1c02c3b97aab.png#averageHue=%23eeddc9&clientId=ufa26ec83-85b7-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=143&id=u2784dcc3&margin=%5Bobject%20Object%5D&name=image.png&originHeight=143&originWidth=1695&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2750&status=done&style=none&taskId=uc571954f-e025-4bb4-867a-9b5ac787774&title=&width=1695)
+- 右浮动与左浮动贴边效果是一致的，只是贴边方向不同。按照 HTML 书写顺序依次向右向上一个元素贴边，第一个元素贴父元素的右边。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668672634874-32f822e7-8e62-449a-902b-1c02c3b97aab.png#averageHue=%23eeddc9&clientId=ufa26ec83-85b7-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=143&id=u2784dcc3&margin=%5Bobject%20Object%5D&name=image.png&originHeight=143&originWidth=1695&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2750&status=done&style=none&taskId=uc571954f-e025-4bb4-867a-9b5ac787774&title=&width=1695)
 - 案例：利用浮动依次贴边的性质，用列表结构模拟平均分布的表格布局结构。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668674747208-7a73be1d-0882-4c21-b185-96887d782725.png#averageHue=%2386bfa3&clientId=ufa26ec83-85b7-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=150&id=ua1d93062&margin=%5Bobject%20Object%5D&name=image.png&originHeight=150&originWidth=445&originalType=binary&ratio=1&rotation=0&showTitle=false&size=2788&status=done&style=none&taskId=ud6d392d1-f307-4814-98bf-aacf803cb7a&title=&width=445)
 ```html
 <!DOCTYPE html>
@@ -3085,7 +3317,7 @@ CSS2.1的选择器有7种选择器
 </html>
 ```
 
-- 同一个盒子中，可以有左浮动和右浮动的子盒子并存，子盒子会根据浮动方向，向上一个同方向的子盒子进行贴边，如果空间不够，也会发生之前依次贴边的各种情况。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668674916580-6985d114-ae98-43fb-bbf9-29c8e1f93416.png#averageHue=%237f9666&clientId=ufa26ec83-85b7-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=143&id=uf68f0b4a&margin=%5Bobject%20Object%5D&name=image.png&originHeight=143&originWidth=616&originalType=binary&ratio=1&rotation=0&showTitle=false&size=3302&status=done&style=none&taskId=u6dc7d42e-fa90-485f-ac2b-00a11ff8f28&title=&width=616)
+- 同一个盒子中，可以有左浮动和右浮动的子盒子并存，子盒子会根据浮动方向，向上一个同方向的子盒子进行贴边，如果空间不够，也会发生之前依次贴边的各种情况。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668674916580-6985d114-ae98-43fb-bbf9-29c8e1f93416.png#averageHue=%237f9666&clientId=ufa26ec83-85b7-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=143&id=uf68f0b4a&margin=%5Bobject%20Object%5D&name=image.png&originHeight=143&originWidth=616&originalType=binary&ratio=1&rotation=0&showTitle=false&size=3302&status=done&style=none&taskId=u6dc7d42e-fa90-485f-ac2b-00a11ff8f28&title=&width=616)
 ```css
 ul {
   list-style: none;
@@ -3116,7 +3348,7 @@ li {
    - 导航栏效果。
    - 常见的电商或企业网站布局。
 
-练习：绘制出如图效果<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668606567632-c31e3998-8902-4ec5-ae0f-6acacd54d7a5.png#averageHue=%237295b5&clientId=u567a56dc-b07c-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=455&id=u21d7cb64&margin=%5Bobject%20Object%5D&name=image.png&originHeight=500&originWidth=1042&originalType=binary&ratio=1&rotation=0&showTitle=false&size=76224&status=done&style=none&taskId=udc7944c2-c4ce-4ab2-a0fe-228a457e47a&title=&width=947.2727067411442)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668676740234-d94e5918-cba6-494c-ab8b-67c50b9420d6.png#averageHue=%2387ceeb&clientId=ufa26ec83-85b7-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=507&id=u4bda4c6a&margin=%5Bobject%20Object%5D&name=image.png&originHeight=507&originWidth=1002&originalType=binary&ratio=1&rotation=0&showTitle=false&size=3956&status=done&style=none&taskId=ucbe473e3-4e0b-42d6-86fa-844bded3b9c&title=&width=1002)
+练习：绘制出如图效果![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668606567632-c31e3998-8902-4ec5-ae0f-6acacd54d7a5.png#averageHue=%237295b5&clientId=u567a56dc-b07c-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=455&id=u21d7cb64&margin=%5Bobject%20Object%5D&name=image.png&originHeight=500&originWidth=1042&originalType=binary&ratio=1&rotation=0&showTitle=false&size=76224&status=done&style=none&taskId=udc7944c2-c4ce-4ab2-a0fe-228a457e47a&title=&width=947.2727067411442)![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668676740234-d94e5918-cba6-494c-ab8b-67c50b9420d6.png#averageHue=%2387ceeb&clientId=ufa26ec83-85b7-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=507&id=u4bda4c6a&margin=%5Bobject%20Object%5D&name=image.png&originHeight=507&originWidth=1002&originalType=binary&ratio=1&rotation=0&showTitle=false&size=3956&status=done&style=none&taskId=ucbe473e3-4e0b-42d6-86fa-844bded3b9c&title=&width=1002)
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -3330,7 +3562,7 @@ li {
 ```
 #### 浮动的问题2
 
-- 父元素没有高度，会影响后面元素的标准流位置（后面的标准流会贴着父元素标准流，子元素浮动会影响到），如果浮动的子元素足够高时，有可能影响到后面浮动元素的贴边<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668791857122-d2c1ba66-11dc-434d-9607-1e6acd0006b4.png#averageHue=%23fddfdf&clientId=u7c5cfa18-af1f-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=257&id=u6201ab6c&margin=%5Bobject%20Object%5D&name=image.png&originHeight=283&originWidth=2226&originalType=binary&ratio=1&rotation=0&showTitle=false&size=4231&status=done&style=none&taskId=ucef65bdf-a587-489c-8eb9-eb377b5323c&title=&width=2023.6363197752275)
+- 父元素没有高度，会影响后面元素的标准流位置（后面的标准流会贴着父元素标准流，子元素浮动会影响到），如果浮动的子元素足够高时，有可能影响到后面浮动元素的贴边![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1668791857122-d2c1ba66-11dc-434d-9607-1e6acd0006b4.png#averageHue=%23fddfdf&clientId=u7c5cfa18-af1f-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=257&id=u6201ab6c&margin=%5Bobject%20Object%5D&name=image.png&originHeight=283&originWidth=2226&originalType=binary&ratio=1&rotation=0&showTitle=false&size=4231&status=done&style=none&taskId=ucef65bdf-a587-489c-8eb9-eb377b5323c&title=&width=2023.6363197752275)
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -3439,7 +3671,7 @@ li {
 
 - 属性名background-repeat
 - 作用：设置添加的背景图是否要在盒子中重复进行加载。
-- 属性值：根据属性值不同，有四种加载方式<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1669387197771-7ff4d925-aa27-42d8-82ad-2397e39945de.png#averageHue=%23efeeee&clientId=u05ba6b6b-e85b-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=405&id=u4a86fedb&margin=%5Bobject%20Object%5D&name=image.png&originHeight=445&originWidth=1203&originalType=binary&ratio=1&rotation=0&showTitle=false&size=117008&status=done&style=none&taskId=u47b80651-6128-447d-8e96-fce54e71290&title=&width=1093.6363399324343)
+- 属性值：根据属性值不同，有四种加载方式![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1669387197771-7ff4d925-aa27-42d8-82ad-2397e39945de.png#averageHue=%23efeeee&clientId=u05ba6b6b-e85b-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=405&id=u4a86fedb&margin=%5Bobject%20Object%5D&name=image.png&originHeight=445&originWidth=1203&originalType=binary&ratio=1&rotation=0&showTitle=false&size=117008&status=done&style=none&taskId=u47b80651-6128-447d-8e96-fce54e71290&title=&width=1093.6363399324343)
 ### 背景定位
 
 - 属性名：background-position
@@ -3457,7 +3689,7 @@ li {
 
 - 使用像素值（px）作为背景定位的属性值。
 - 第一个属性值，表示背景图片的左上角从border 以内的左上顶点水平方向位移的距离（像素值）
-- 第二个属性值，表示背景图片的左上角从border 以内的左上顶点垂直方向位移的距离（像素值）<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1669428905391-475555d8-8db9-4efb-9522-a46f7933ba87.png#averageHue=%23ced8b2&clientId=ucc5f8257-b054-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=388&id=uff9dbcfa&margin=%5Bobject%20Object%5D&name=image.png&originHeight=427&originWidth=575&originalType=binary&ratio=1&rotation=0&showTitle=false&size=163795&status=done&style=none&taskId=ud9f40aad-5d12-4a9a-8ba5-86211b36f88&title=&width=522.7272613974644)
+- 第二个属性值，表示背景图片的左上角从border 以内的左上顶点垂直方向位移的距离（像素值）![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1669428905391-475555d8-8db9-4efb-9522-a46f7933ba87.png#averageHue=%23ced8b2&clientId=ucc5f8257-b054-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=388&id=uff9dbcfa&margin=%5Bobject%20Object%5D&name=image.png&originHeight=427&originWidth=575&originalType=binary&ratio=1&rotation=0&showTitle=false&size=163795&status=done&style=none&taskId=ud9f40aad-5d12-4a9a-8ba5-86211b36f88&title=&width=522.7272613974644)
 - 像素值正负代表位移的方向不同
    - 正数：表示图片针对盒子的原点向右、向下移动。
    - 负数：表示图片针对盒子的原点向左、向上移动。
@@ -3474,12 +3706,12 @@ li {
 
 - 属性名：background-attachment。
 - 作用：设置的是背景图片是否要随着页面或者盒子的滚动而滚动。
-- 属性值：<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1669430873246-4af9e87d-8211-473d-bb08-7a175e2c454f.png#averageHue=%23edecea&clientId=udfb59beb-f4ab-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=153&id=u9b6af1fd&margin=%5Bobject%20Object%5D&name=image.png&originHeight=168&originWidth=631&originalType=binary&ratio=1&rotation=0&showTitle=false&size=42187&status=done&style=none&taskId=u786bbbd1-e50c-47e8-92de-deea8e13372&title=&width=573.6363512031305)
+- 属性值：![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1669430873246-4af9e87d-8211-473d-bb08-7a175e2c454f.png#averageHue=%23edecea&clientId=udfb59beb-f4ab-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=153&id=u9b6af1fd&margin=%5Bobject%20Object%5D&name=image.png&originHeight=168&originWidth=631&originalType=binary&ratio=1&rotation=0&showTitle=false&size=42187&status=done&style=none&taskId=u786bbbd1-e50c-47e8-92de-deea8e13372&title=&width=573.6363512031305)
 #### 背景缩放
 
 - 属性名：background-size
 - 作用：设置背景图片的尺寸，就像我们设置 <img> 的尺寸一样，在移动 Web 开发中做屏幕适配应用非常广泛。
-- 属性值：cover会完全覆盖，而contain只要有一个方向（垂直或水平）扩展至最大尺寸就会停止扩展了。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1669436990235-b24ebb87-70ef-4812-91f9-796f8785ac6c.png#averageHue=%23f4f3f2&clientId=udfb59beb-f4ab-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=309&id=ube0647a7&margin=%5Bobject%20Object%5D&name=image.png&originHeight=340&originWidth=1000&originalType=binary&ratio=1&rotation=0&showTitle=false&size=106402&status=done&style=none&taskId=ud570fa80-4576-4974-a5ed-6ee2a78a0f9&title=&width=909.0908893868947)
+- 属性值：cover会完全覆盖，而contain只要有一个方向（垂直或水平）扩展至最大尺寸就会停止扩展了。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1669436990235-b24ebb87-70ef-4812-91f9-796f8785ac6c.png#averageHue=%23f4f3f2&clientId=udfb59beb-f4ab-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=309&id=ube0647a7&margin=%5Bobject%20Object%5D&name=image.png&originHeight=340&originWidth=1000&originalType=binary&ratio=1&rotation=0&showTitle=false&size=106402&status=done&style=none&taskId=ud570fa80-4576-4974-a5ed-6ee2a78a0f9&title=&width=909.0908893868947)
 ### 综合写法
 
 - 综合写法就是用background属性把五个单一属性的值进行合写。
@@ -3502,7 +3734,7 @@ li {
 - 解决办法：
    - 1. 使用背景图片来代替插入图作为logo。
    - 2. 可以将文字的字号设置为0来隐藏文字。
-   - 或者可以设置给包含文本的标签一个 text-indent属性，属性值为负的很大的值，文字会走到盒子外部，直接再设置溢出隐藏属性，将溢出文字隐藏。<br />![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1669451624152-28bf61a7-fb8f-48c8-bb27-012b2776e00c.png#averageHue=%23fcd6c8&clientId=udfb59beb-f4ab-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=85&id=u1670a811&margin=%5Bobject%20Object%5D&name=image.png&originHeight=93&originWidth=174&originalType=binary&ratio=1&rotation=0&showTitle=false&size=7408&status=done&style=none&taskId=u1b37b8da-3a78-48f3-a1ff-edc3faeadd7&title=&width=158.18181475331968)
+   - 或者可以设置给包含文本的标签一个 text-indent属性，属性值为负的很大的值，文字会走到盒子外部，直接再设置溢出隐藏属性，将溢出文字隐藏。![image.png](https://cdn.nlark.com/yuque/0/2022/png/2760917/1669451624152-28bf61a7-fb8f-48c8-bb27-012b2776e00c.png#averageHue=%23fcd6c8&clientId=udfb59beb-f4ab-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=85&id=u1670a811&margin=%5Bobject%20Object%5D&name=image.png&originHeight=93&originWidth=174&originalType=binary&ratio=1&rotation=0&showTitle=false&size=7408&status=done&style=none&taskId=u1b37b8da-3a78-48f3-a1ff-edc3faeadd7&title=&width=158.18181475331968)
 #### padding区域背景图
 
 - 使用背景图在padding区域设置无序列表的列表样式
