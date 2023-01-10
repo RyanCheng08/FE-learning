@@ -2069,6 +2069,8 @@ CSS2.1的选择器有7种选择器
 
 + 可以为文字与 decoration 添加多个阴影，阴影值之间用逗号隔开。每个阴影值由元素在 X 和 Y 方向的偏移量、模糊半径和颜色值组成。
 
++ 参考文章：[Moonlighting with CSS text-shadow](https://www.sitepoint.com/moonlighting-css-text-shadow/)
+
 + 语法：
 
   ```css
@@ -2098,6 +2100,7 @@ CSS2.1的选择器有7种选择器
 + 设置用于列表的项目符号的类型，例如无序列表的方形或圆形项目符号，或有序列表的数字，字母或罗马数字。
 + 必须display是list-item的元素，在父元素上（<ol>、<ul>），虽然display是block但因为继承，子列表项还是可以生效。
 + 因为世界上有很多语言，尤其那些使用者众多的语言，都会有一个对应的有序名称。所以list-style-type支持的关键字属性值非常的多。cjk是Chinese/japanese/korea的缩写，表示东亚语言体系
++ 更详细的内容可以看张鑫旭大佬的文章——[关于list-style-type项目符号你应该知道的事情](https://www.zhangxinxu.com/wordpress/2022/11/about-css-list-style-type-item/comment-page-1/#comment-431827)
 
 #### 关键字属性值
 
@@ -2226,13 +2229,27 @@ CSS2.1的选择器有7种选择器
 
 + 具体介绍可以看张鑫旭大佬的文章[CSS @counter-style规则详细介绍](https://www.zhangxinxu.com/wordpress/2021/10/css-counter-style/)
 
+#### ol标签的type属性
+
++ ol标签还支持用HTML属性type来指定有序列表的序号类型，为[1, a, A, i, I]这五个值中的任意一个。
++ 如果ol元素设置了list-style-typecss属性，则type属性不会生效。
++ type属性会只对ol标签有效。
+
 ### list-style-position
 
-+ 设置在每个项目开始之前，项目符号是出现在列表项内，还是出现在其外。
++ 设置在每个项目开始之前，项目符号是出现在列表项文本内，还是出现在其外。
+
++ 属性值：
+
+  ![image-20230110141815258](https://image-1303053174.cos.ap-guangzhou.myqcloud.com//typora-images/image-20230110141815258.png)
 
 ### list-style-image
 
 + 允许您为项目符号使用自定义图片，而不是简单的方形或圆形。
+
++ 属性值：
+
+  ![image-20230110152813973](https://image-1303053174.cos.ap-guangzhou.myqcloud.com//typora-images/image-20230110152813973.png)
 
 ### list-style简写
 
@@ -2241,7 +2258,7 @@ CSS2.1的选择器有7种选择器
 
 ### 管理列表计数
 
-+ start属性允许你从 1 以外的数字开始计数，值为需要开始的数字
++ start属性允许你从 1 以外的数字开始计数，值为需要开始的数字，只有ol标签能用
 
   ```html
   <ol start="4">
@@ -2282,6 +2299,15 @@ CSS2.1的选择器有7种选择器
   ```
 
   ![image-20230109163806840](https://image-1303053174.cos.ap-guangzhou.myqcloud.com//typora-images/image-20230109163806840.png)
+  
++ CSS中的计数器搭配`@counter-style`规则和`::before`/`::after`伪元素可以实现许多高级的序号，因为这2个伪元素可以支持几乎所有的css属性
+  [CSS counter计数器(content目录序号自动递增)详解](https://www.zhangxinxu.com/wordpress/2014/08/css-counters-automatic-number-content/)
+
+### ::marker伪元素
+
++ CSS ::marker伪元素是专门用来设置列表序号样式的，不过只能设置与文本相关的CSS样式，如字号，字体，颜色，字间距等。
++ `::marker`伪元素还支持使用`content`属性自定义项目符号：
++ 深入学习看张鑫旭大佬的文章——[CSS ::marker伪元素简介](https://www.zhangxinxu.com/wordpress/2021/02/css-marker-pseudo-element/)
 
 ## 盒模型
 
@@ -4068,6 +4094,8 @@ li {
 ### 压盖顺序
 ### 综合案例
 
+
+
 ## 组织CSS
 
 ### 避免太特定的选择器
@@ -4095,3 +4123,10 @@ li {
 + [BEM 命名常规](https://getbem.com/naming/)
 
 用em表示高度和内边距的时候，1em=10px
+
+
+
+## 样式化链接
+
++ 可以使用border-bottom来设置下划线，有更好的样式选项，并且绘制的位置会稍微低一点，所以不会穿过字母
++ border-bottom只设置长度和边框样式，不设置颜色，可以使边框采用和元素文本一样的颜色

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    a {
+      text-decoration: none;
+      outline: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    a:link {
+      color: skyblue;
+    }
+
+    a:visited {
+      color:deeppink;
+    }
+
+    a:focus {
+      background-color: greenyellow;
+      border-bottom: 1px solid;
+    }
+
+    a:hover {
+      background-color: rgb(23, 92, 40);
+    }
+
+    a:active {
+      color: lightcoral;
+      background-color: rgba(rgb(173, 132, 132), rgb(113, 214, 113), rgb(23, 23, 26), 0.5);
+    }
+
+    /* 利用属性选择器设置图片 */
+    a[href*="http"] {
+      background: url(external-link-52.png) no-repeat 100% 0 ;
+      background-size: 16px 16px;
+      padding-right: 18px;
+    }
+  </style>
+</head>
+
+<body>
+  <p>There are several browsers available, such as <a href="#">weather page</a>、 <a href="https://www.mozilla.org/zh-CN/firefox/">Mozilla
+      Firefox</a>, <a href="https://www.google.com/chrome/index.html">Google Chrome</a>, and
+    <a href="https://www.microsoft.com/zh-CN/windows/microsoft-edge">Microsoft Edge</a>.
+  </p>
+</body>
+
+</html>
